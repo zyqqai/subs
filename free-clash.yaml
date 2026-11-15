@@ -1,88 +1,19 @@
 proxies:
-- name: 🇪🇸 西班牙 2
-  server: 196.245.52.187
+- name: 🇳🇱 NL-荷兰-IPV4
+  server: 79.182.39.131
   port: 443
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
   reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: ba2a3dce62b99092
-  servername: 04535dt.us8.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇩🇪 DE VLESS-10 | FREE-NODES
-  server: silk.filnex.baby
-  port: 443
-  type: vless
-  uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
-  tls: true
-  alpn:
-  - http/1.1
-  servername: silk.filnex.baby
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  servername: 717252g.nl8.h1clayd.click
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /api/de5/stream
-    headers:
-      Host: silk.filnex.baby
-  udp: true
-- name: 🇨🇦 VLESS-CA-1... 2
-  server: 172.67.74.177
-  port: 443
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: 🇩🇪 DE VLESS-23 | FREE-NODES
-  server: 83.141.69.239
-  port: 443
-  type: vless
-  uuid: 1b487f79-6b87-4971-863c-526bd31abd44
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI
-    short-id: db71028aeb67289c
-  servername: 83.141.69.239.sslip.io
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇯🇵 VLESS-JP-1... 8
-  server: 46.250.248.210
-  port: 443
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: 🇺🇸 US VLESS-04 | FREE-NODES
-  server: 162.35.101.177
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
   network: grpc
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
+    grpc-service-name: 204adda7e3da
   udp: true
 - name: 🇨🇦 VLESS-CA
   server: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
@@ -97,7 +28,72 @@ proxies:
     headers:
       Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
   udp: true
-- name: 🇩🇪 VLESS-DE-1... 9
+- name: 🇳🇱 荷兰 | NLD 2
+  server: base.hosamobenl.co.uk
+  port: 443
+  type: vless
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  tls: true
+  alpn:
+  - http/1.1
+  servername: base.hosamobenl.co.uk
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇪🇸 西班牙
+  server: 196.196.149.80
+  port: 443
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 DE VLESS-02 | FREE-NODES
+  server: 3.174.189.0
+  port: 443
+  type: vless
+  uuid: 2e69b088-6ef3-417f-8247-125cf257fafd
+  tls: true
+  servername: d1b9pmaut2v26v.cloudfront.net
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /cf
+    host: d1b9pmaut2v26v.cloudfront.net
+    mode: auto
+  udp: true
+- name: 未知 VLESS-28 | FREE-NODES
+  server: 185.255.115.87
+  port: 443
+  type: vless
+  uuid: 55458d10-24ab-4ea6-a522-13741b546f2a
+  tls: true
+  reality-opts:
+    public-key: ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4
+    short-id: a91531ad58c8611c
+  servername: d58daft.plp1.h1cloud.net
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇳🇱 NL-14|1.2MB S
+  server: 194.60.228.97
+  port: 443
+  type: vless
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  tls: true
+  alpn:
+  - http/1.1
+  servername: base.hosamobenl.co.uk
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 VLESS-DE-1... 13
   server: 5.83.129.236
   port: 443
   type: vless
@@ -110,240 +106,112 @@ proxies:
     grpc-mode: gun
     grpc-service-name: a9w9wmko0k2od14hv8v
   udp: true
-- name: 🇩🇪 DE VLESS-20 | FREE-NODES
-  server: 83.141.69.220
+- name: 🇸🇬 VLESS-SG-8... 1
+  server: 162.159.152.4
   port: 443
   type: vless
-  uuid: 70178a92-cfd2-4a4f-b9fb-7e916d231349
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   tls: true
-  flow: xtls-rprx-vision
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+  udp: true
+- name: 未知 VLESS-27 | FREE-NODES
+  server: d58daft.plp1.h1cloud.net
+  port: 443
+  type: vless
+  uuid: c82031be-e90f-4b15-ab4f-7ccef236d3ca
+  tls: true
   reality-opts:
-    public-key: p0M6RumtfcATPNPUIFnFcgWy2rzk2gGVWx21sql1hV0
-    short-id: 8238d76df92c2560
-  servername: 13.143.195.113.sslip.io
-  client-fingerprint: firefox
+    public-key: ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4
+    short-id: a91531ad58c8611c
+  servername: d58daft.plp1.h1cloud.net
+  client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇳🇱 VLESS-NL-1... 5
-  server: base.hosamobenl.co.uk
+- name: 🇺🇸 美国 | USA 21-IPV4
+  server: 104.17.147.208
   port: 443
   type: vless
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  uuid: 258ca28a-d982-4a40-b620-7c1c81108060
   tls: true
   alpn:
-  - http/1.1
-  servername: base.hosamobenl.co.uk
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 未知 VLESS-25 | FREE-NODES
-  server: pl.galacticworld.online
-  port: 443
-  type: vless
-  uuid: ecc0e60a-f2cc-4266-8353-b228df89730a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4
-  servername: pl.galacticworld.online
-  client-fingerprint: qq
-  network: tcp
-  udp: true
-- name: VLESS-FI-1... 5
-  server: 138.124.124.157
-  port: 443
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
+  - h3
+  servername: b.rack.sxsc.dpdns.org
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /?ed=2048fp=chrome
     headers:
-      Host: fs.qicai99.com
+      Host: b.rack.sxsc.dpdns.org
   udp: true
-- name: VLESS-17
-  server: yx.l110.us.ci
-  port: 443
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: 未知 VLESS-13 | FREE-NODES
-  server: 196.196.148.85
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
-  servername: 5d0319t.nl7.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇨🇦 VLESS-CA-1... 3
-  server: 162.159.198.1
-  port: 443
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: cucc.cloudflare.seeck.cn
-  port: 443
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: 🇺🇸 US VLESS-15 | FREE-NODES
-  server: 200.102.179.69
-  port: 443
-  type: vless
-  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
-  tls: true
-  servername: dmbdnpctq8hjxx.hat.onl
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /hls/014373eq/seg
-    host: dmbdnpctq8hjxx.hat.onl
-    mode: auto
-  udp: true
-- name: 🇸🇨 塞舌尔
-  server: 196.199.122.2
-  port: 443
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
-  servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: VLESS-1
-  server: 188.137.178.174
+- name: 🇳🇱 荷兰 | NLD 5
+  server: 196.240.125.250
   port: 8443
   type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: GE-31 1
-  server: 194.135.119.82
-  port: 2053
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: 🇺🇸 US VLESS-17 | FREE-NODES
-  server: usa.amosh.sbs
-  port: 2053
-  type: vless
-  uuid: 901c1ed2-be44-4c97-843e-7bcdcce28e04
+  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
   tls: true
   alpn:
   - h2
-  - http/1.1
-  - h3
-  servername: usa.amosh.sbs
+  flow: xtls-rprx-vision
+  servername: api-v1-6af87527.vmagnum.win
   client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: usa.amosh.sbs
-    mode: auto
-    x-padding-bytes: 100-1000
-  udp: true
-- name: VLESS-FI 1
-  server: 138.124.49.108
-  port: 8443
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  tls: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: fs.qicai99.com
-  udp: true
-- name: VLESS-AE-1... 1
-  server: 84.235.244.108
-  port: 22573
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  tls: false
-  servername: uae.unixzone.us
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-  udp: true
-- name: 🇰🇷 VLESS-KR-1
-  server: 152.69.226.63
-  port: 25555
-  type: vless
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇩🇪 VLESS-DE-1... 7
-  server: 159.195.207.238
-  port: 49313
-  type: vless
-  uuid: 855c7aaa-e7d6-463e-971e-d36032744428
-  tls: false
   network: tcp
   udp: true
-- name: 🇸🇬 SG VLESS-18 | FREE-NODES
+- name: 🇺🇸 US VLESS-19 | FREE-NODES
+  server: 156.229.167.109
+  port: 8443
+  type: vless
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  tls: true
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  servername: github.githubassets.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: VLESS-AE-1
+  server: 95.174.68.188
+  port: 14430
+  type: vless
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  tls: false
+  servername: 95.174.68.188
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+  udp: true
+- name: 🇯🇵 JP-日本-IPV4
   server: zfapi.zalolink.com
-  port: 46957
+  port: 43149
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-    short-id: 8f6683a234d3
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: 15aa0ad4
   servername: psstatic.cdn.bcebos.com
-  client-fingerprint: safari
+  client-fingerprint: firefox
   network: tcp
+  udp: true
+- name: VLESS-SE-1... 1
+  server: 138.124.86.230
+  port: 48115
+  type: vless
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  tls: true
+  servername: 138-124-86-230.sslip.io
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 138-124-86-230-sslip-io
   udp: true
 - name: VLESS-BY-1... 2
   server: 178.172.227.124
@@ -351,7 +219,40 @@ proxies:
   type: vless
   uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
   tls: false
-  servername: 178.172.227.124
+  network: tcp
+  udp: true
+- name: 🇰🇷 VLESS-KR-1
+  server: 152.69.226.63
+  port: 25555
+  type: vless
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  tls: false
+  servername: 152.69.226.63
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+  udp: true
+- name: VLESS-BY-1... 3
+  server: 95.128.71.79
+  port: 14430
+  type: vless
+  uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
+  tls: false
+  servername: 95.128.71.79
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.128.71.79
+  udp: true
+- name: VLESS-VN-1
+  server: 150.95.109.109
+  port: 2086
+  type: vless
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
+  tls: false
   network: tcp
   udp: true
 - name: 🇮🇳 VLESS-IN-1... 3
@@ -367,64 +268,124 @@ proxies:
     headers:
       Host: 13.140.56.100
   udp: true
-- name: VLESS-3
+- name: VLESS-TH-1
+  server: www.true.th
+  port: 80
+  type: vless
+  uuid: f4c5605a-8424-441e-b23d-d6384d012c28
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dcm4kwis2exkw.cloudfront.net
+  udp: true
+- name: VLESS-FI-1... 3
   server: 45.144.234.157
   port: 14430
   type: vless
   uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
   tls: false
-  servername: 45.144.234.157
   network: ws
   ws-opts:
     path: /vless
     headers:
       Host: 45.144.234.157
   udp: true
-- name: VLESS-22
-  server: 150.95.109.109
-  port: 2086
+- name: VLESS-TH-1... 1
+  server: assets.opensignal.com
+  port: 80
   type: vless
-  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
-  tls: false
-  network: tcp
-  udp: true
-- name: VLESS-AE-1
-  server: 95.174.68.188
-  port: 14430
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  uuid: 0c85001b-ad48-4f43-bdc9-b2b5c626a26e
   tls: false
   network: ws
   ws-opts:
-    path: /vless
+    path: /logout
     headers:
-      Host: 95.174.68.188
+      Host: d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com
   udp: true
-- name: VLESS-SE-1... 1
-  server: 138.124.86.230
-  port: 48115
-  type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  tls: true
-  servername: 138-124-86-230.sslip.io
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 138-124-86-230-sslip-io
-  udp: true
-- name: 🇸🇬 SG VLESS-11 | FREE-NODES
+- name: 🇯🇵 日本
   server: zfapi.zalolink.com
-  port: 30322
+  port: 54528
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: 6a60e7e382d6
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+  servername: www.apple.com
+  client-fingerprint: ios
+  network: tcp
+  udp: true
+- name: VLESS-SE-1... 3
+  server: 5.178.109.174
+  port: 14430
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  tls: false
+  servername: 5.178.109.174
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+  udp: true
+- name: 🇩🇪 VLESS-DE-1... 3
+  server: online.shop.ir.eeso.cc
+  port: 39653
+  type: vless
+  uuid: baded307-189c-4ffc-a271-9acdab51a324
+  tls: true
+  alpn:
+  - h2
+  - http/1.1
+  servername: online.shop.ir.eeso.cc
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇺🇸 US VLESS-06 | FREE-NODES
+  server: 217.217.47.140
+  port: 50769
+  type: vless
+  uuid: 6f6318b1-3ba5-4106-9365-8a8e19f04bd3
+  tls: true
+  encryption: mlkem768x25519plus.native.0rtt.Q87mgMmTfbfB0W6gBMUjZGuHSPmo8Ot7-obrW5-BD3o
+  reality-opts:
+    public-key: 7Q09Z_KU9vXvif4-pLfVc_Zwil-X4k41Iesv-HCk4wI
+    short-id: 7f3d68ed44
+  servername: ops.gx.nvidia.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇸🇬 SG VLESS-08 | FREE-NODES
+  server: zfapi.zalolink.com
+  port: 46957
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
+    short-id: 8f6683a234d3
   servername: psstatic.cdn.bcebos.com
   client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 VLESS-DE-1... 10
+  server: 159.195.207.238
+  port: 49313
+  type: vless
+  uuid: 855c7aaa-e7d6-463e-971e-d36032744428
+  tls: false
+  network: tcp
+  udp: true
+- name: VLESS-EE-1... 4
+  server: 45.86.60.174
+  port: 16443
+  type: vless
+  uuid: 13e541f3-d09d-4633-89df-8513db0ced20
+  tls: false
   network: tcp
   udp: true
 - name: VLESS-BY-1... 1
@@ -439,138 +400,104 @@ proxies:
     headers:
       Host: 178.172.227.228
   udp: true
-- name: VLESS-EE-1... 4
-  server: 45.86.60.174
-  port: 16443
+- name: 🇵🇱 波兰 | POL
+  server: 185.86.145.55
+  port: 10470
   type: vless
-  uuid: 13e541f3-d09d-4633-89df-8513db0ced20
-  tls: false
-  network: tcp
+  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
+  tls: true
+  servername: wn-pl4.static-s3.org
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: wn-adaptcloud
   udp: true
-- name: VLESS-SE-1... 3
-  server: 5.178.109.174
-  port: 14430
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  tls: false
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-  udp: true
-- name: 🇺🇸 US-167.88.61.175-0093
+- name: 🇺🇸 US-167.88.61.175-0112
   server: 167.88.61.175
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: blog.browseseniorrolesandenhanceyourcareertoday.com
   udp: true
-- name: 🇩🇪 DE-193.108.119.193-0146
-  server: 193.108.119.193
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.iloverussia2026.com
-  udp: true
-- name: 🇩🇪 DE-193.108.119.15-0135
-  server: 193.108.119.15
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.iloverussia2026.com
-  udp: true
-- name: 🇰🇷 KR-158.247.253.243-0152
-  server: 158.247.253.243
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectgraduateswithjobopeningsandgrowprofessionally.com
-  udp: true
-- name: 🇺🇸 US-169.197.140.218-0095
-  server: 169.197.140.218
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  udp: true
-- name: CL-64.176.7.205-0125
-  server: 64.176.7.205
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-  udp: true
-- name: TROJAN-SE-... 1
-  server: 121.127.33.130
-  port: 443
-  type: trojan
-  password: f426d3c9-fb43-43c0-868b-898dfa451a74
-  sni: likejennie.pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: likejennie.pages.dev
-  udp: true
-- name: CH-208.69.78.33-0523
-  server: 208.69.78.33
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.yourultimateprofessionalcareerhub.com
-  udp: true
-- name: 🇺🇸 US-167.88.61.52-0091
-  server: 167.88.61.52
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
-  udp: true
-- name: 🇺🇸 US-66.163.112.121-0150
-  server: 66.163.112.121
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.unlockyourfuturefindyourperfectcareer.com
-  udp: true
-- name: 🇦🇺 AU-45.63.30.142-0114
-  server: 45.63.30.142
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectwithemployerstohireyouridealteam.com
-  udp: true
-- name: 🇸🇬 SG-149.28.130.108-0127
-  server: 149.28.130.108
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: searchcreativejobsandshowcaseyourartistictalents.com
-  udp: true
-- name: 🇺🇸 US-66.163.112.13-0168
-  server: 66.163.112.13
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.unlockyourfuturefindyourperfectcareer.com
-  udp: true
-- name: BR-216.238.104.154-0134
+- name: BR-216.238.104.154-0106
   server: 216.238.104.154
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
   udp: true
-- name: 🇳🇱 TROJAN-NL
-  server: 66.163.127.225
+- name: 🇸🇬 SG-149.28.130.108-0147
+  server: 149.28.130.108
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
+  sni: searchcreativejobsandshowcaseyourartistictalents.com
   udp: true
-- name: 🇨🇦 TROJAN-CA-... 6
+- name: 🇺🇸 US-167.88.61.52-0131
+  server: 167.88.61.52
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  udp: true
+- name: 🇩🇪 DE-193.108.119.15-0109
+  server: 193.108.119.15
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.iloverussia2026.com
+  udp: true
+- name: 🇰🇷 KR-158.247.253.243-0154
+  server: 158.247.253.243
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: connectgraduateswithjobopeningsandgrowprofessionally.com
+  udp: true
+- name: 🇺🇸 US-216.106.186.33-0217
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  type: trojan
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  udp: true
+- name: 🇩🇪 DE-193.108.119.193-0110
+  server: 193.108.119.193
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.iloverussia2026.com
+  udp: true
+- name: 🇦🇺 AU-45.63.30.142-0125
+  server: 45.63.30.142
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: connectwithemployerstohireyouridealteam.com
+  udp: true
+- name: CH-208.69.78.33-0224
+  server: 208.69.78.33
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.yourultimateprofessionalcareerhub.com
+  udp: true
+- name: 🇺🇸 US-66.163.112.121-0119
+  server: 66.163.112.121
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.unlockyourfuturefindyourperfectcareer.com
+  udp: true
+- name: 🇩🇪 DE-193.108.119.96-0114
+  server: 193.108.119.96
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.iloverussia2026.com
+  udp: true
+- name: 🇨🇦 TROJAN-CA-... 5
   server: 216.152.147.79
   port: 443
   type: trojan
@@ -578,86 +505,49 @@ proxies:
   sni: blog.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸 US-216.106.186.33-0219
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  type: trojan
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  udp: true
-- name: 🇨🇦 TROJAN-CA
-  server: 216.152.147.201
+- name: 🇺🇸 US-66.163.112.13-0128
+  server: 66.163.112.13
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.connectingpeoplewithgreatjobs.com
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
   udp: true
-- name: 🇸🇬 SG-15.235.184.127-0268
+- name: CL-64.176.7.205-0098
+  server: 64.176.7.205
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
+  udp: true
+- name: 🇨🇦 TROJAN-CA-... 1
+  server: 216.152.147.93
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: connectingpeoplewithgreatjobs.com
+  udp: true
+- name: 🇸🇬 SG-15.235.184.127-0240
   server: 15.235.184.127
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: exploredigitaljobplatformandfindonlinework.com
   udp: true
-- name: 🇩🇪 DE-193.108.119.29-0277
+- name: 🇩🇪 DE-193.108.119.29-0103
   server: 193.108.119.29
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: blog.iloverussia2026.com
   udp: true
-- name: 🇩🇪 DE-193.108.119.96-0141
-  server: 193.108.119.96
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.iloverussia2026.com
-  udp: true
-- name: 未知 TROJAN-24 | FREE-NODES
-  server: 199.68.156.221
-  port: 2087
-  type: trojan
-  password: QzVKeGlc2qYRxyzWb3xZFjHbqY2JmOfZ
-  sni: nexoastra.xnetaro.ir
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /wss
-    headers:
-      Host: nexoastra.xnetaro.ir
-  udp: true
-- name: 🇭🇰 HK-16.106.7.232-0269
-  server: sclass-c1.catcat321.com
-  port: 20086
-  type: trojan
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-  udp: true
-- name: 🇩🇪 DE-217.217.222.230-0270
-  server: sclass-c2.catcat321.com
-  port: 20051
-  type: trojan
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-  udp: true
-- name: TROJAN-TR-... 1
+- name: TR TROJAN-09 | FREE-NODES
   server: sclass-b1.catcat321.com
   port: 20028
   type: trojan
   password: d7563108-615c-4338-a7bd-77f359869a4a
   sni: hk.catxstar.com
   udp: true
-- name: TROJAN-NG
-  server: sclass-01.catcat321.com
-  port: 20103
-  type: trojan
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG TROJAN-22 | FREE-NODES
+- name: 🇸🇬 SG TROJAN-17 | FREE-NODES
   server: matrix.phonicsindia.mobi
   port: 48994
   type: trojan
@@ -665,34 +555,66 @@ proxies:
   sni: m.microsoft.com
   skip-cert-verify: true
   udp: true
-- name: TROJAN-TR
+- name: TROJAN-AE-... 4
+  server: sclass-c1.catcat321.com
+  port: 20086
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 HK-16.106.7.232-0252
+  server: sclass-00.catcat321.com
+  port: 20123
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  udp: true
+- name: 🇳🇬 尼日利亚 | NGA 1
+  server: sclass-b1.catcat321.com
+  port: 20051
+  type: trojan
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  udp: true
+- name: TROJAN-NG
+  server: sclass-c2.catcat321.com
+  port: 20051
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-157.254.38.210-0244
+  server: sclass-01.catcat321.com
+  port: 20103
+  type: trojan
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+  udp: true
+- name: TR TROJAN-15 | FREE-NODES
   server: sclass-b1.catcat321.com
   port: 20027
   type: trojan
   password: d7563108-615c-4338-a7bd-77f359869a4a
   sni: hk.catxstar.com
   udp: true
-- name: 🇹🇼 TW-台湾-US-美国-IPV4
-  server: sdf65h46wr.df6h451rh.xin
+- name: 🇺🇸 美国 | USA 3
+  server: us032013.ssgreen.org
   port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: SC-156.239.224.107-0262
-  server: 156.239.224.107
-  port: 57278
   type: vmess
-  uuid: 1270bed5-f908-4ecc-f1c8-de246033b186
+  uuid: 4b6411e3-914d-4d6c-b486-58b1b88f5c5f
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    path: /
+    path: /wes
+    headers:
+      Host: US032013.ssgreen.org
   udp: true
-- name: 🇫🇷 FR-145.239.55.210-0227
+- name: 🇫🇷 FR-145.239.55.210-0222
   server: 145.239.55.210
   port: 80
   type: vmess
@@ -706,37 +628,88 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
   udp: true
-- name: 🇭🇰 HK-156.245.232.239-5893
-  server: 156.245.232.239
-  port: 35043
+- name: 🇺🇸 美国 ALABANZA
+  server: 65.108.240.210
+  port: 39018
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  uuid: 77fb7a80-4724-4e33-9558-4f20c1634c5a
   alterId: 0
   cipher: auto
   tls: false
+  udp: true
+- name: 🇭🇰 中国-香港-3
+  server: 156.239.224.107
+  port: 57278
+  type: vmess
+  uuid: 1270bed5-f908-4ecc-f1c8-de246033b186
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /
   udp: true
-- name: OUTLINERELEASEDKEY
-  server: steel7.hadsvpn.com
-  port: 443
-  type: hysteria2
-  password: 23c82941-70f4-4381-90db-bd28e9a902e9
-  auth: 23c82941-70f4-4381-90db-bd28e9a902e9
-  sni: steel7.hadsvpn.com
-  skip-cert-verify: false
+- name: 🇺🇸 美国 ALABANZA 2
+  server: 65.108.240.210
+  port: 39018
+  type: vmess
+  uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
-- name: VPNBAZ
-  server: 130.49.161.70
+- name: 🇩🇪 德国 | DEU 2
+  server: free3.familysharing.ir
+  port: 8880
+  type: vmess
+  uuid: 04cacf0a-46d5-81b3-874d-460d7a36c036
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - free3.familysharing.ir
+  udp: true
+- name: 🇩🇪 DE-德国-IPV4
+  server: 23.165.200.150
+  port: 52080
+  type: vmess
+  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: down-cdn.dingtalk.com
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+  udp: true
+- name: 🇷🇴 罗马尼亚 | ROU 1
+  server: 185.126.237.178
   port: 443
   type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  auth: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: ccb8ff48-3934-4250-b4ec-bb76b95d154f
+  auth: ccb8ff48-3934-4250-b4ec-bb76b95d154f
+  sni: 185.126.237.178
+  skip-cert-verify: true
+  udp: true
+- name: 43 ONECLICKVPNKEYS
+  server: guide.blog-forme.ru
+  port: 443
+  type: hysteria2
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  auth: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: guide.blog-forme.ru
   udp: true
 - name: 42 ONECLICKVPNKEYS
   server: 177.202.65.158
@@ -749,6 +722,25 @@ proxies:
   obfs: salamander
   obfs-password: AJyvWNsoDgVkMkboZ3juMJXYNRf6uEQE
   udp: true
+- name: 33 ONECLICKVPNKEYS
+  server: 138.2.89.249
+  port: 443
+  type: hysteria2
+  password: d042d150716709bb778cc73889cddb02
+  auth: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  udp: true
+- name: 69 ONECLICKVPNKEYS
+  server: s5.libertyrunet.store
+  port: 443
+  type: hysteria2
+  password: 307ee0e53ea04dfd86a7f2f9fcd53844
+  auth: 307ee0e53ea04dfd86a7f2f9fcd53844
+  sni: s5.libertyrunet.store
+  udp: true
 - name: 6 ONECLICKVPNKEYS
   server: 212.34.137.105
   port: 443
@@ -757,6 +749,32 @@ proxies:
   auth: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   sni: shorts.blog-forme.ru
   skip-cert-verify: true
+  udp: true
+- name: 66 ONECLICKVPNKEYS
+  server: hy2-eee-1.aloranode.top
+  port: 443
+  type: hysteria2
+  password: b36a14f8-fc3f-4142-968f-48031cf5f330
+  auth: b36a14f8-fc3f-4142-968f-48031cf5f330
+  sni: hy2-eee-1.aloranode.top
+  udp: true
+- name: 92 ONECLICKVPNKEYS
+  server: 3.69.232.199
+  port: 443
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  udp: true
+- name: OUTLINERELEASEDKEY
+  server: steel7.hadsvpn.com
+  port: 443
+  type: hysteria2
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  auth: 23c82941-70f4-4381-90db-bd28e9a902e9
+  sni: steel7.hadsvpn.com
+  skip-cert-verify: false
   udp: true
 - name: 32 ONECLICKVPNKEYS
   server: 201.58.190.235
@@ -769,39 +787,43 @@ proxies:
   obfs: salamander
   obfs-password: sFQIE4F3SbaXCYoCQTY-4YvYiif8__By
   udp: true
-- name: V2RAYNPVTCONFIG
-  server: 3.76.203.180
+- name: VPNBAZ
+  server: 130.49.161.70
   port: 443
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
-  skip-cert-verify: true
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  auth: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   udp: true
-- name: 92 ONECLICKVPNKEYS
-  server: 3.69.232.199
-  port: 443
+- name: 97 ONECLICKVPNKEYS
+  server: 47.89.232.46
+  port: 8443
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-de-002.fastervpn.world
+  password: 4afd4e1b1b0edd429b10d800a1cf64a7
+  auth: 4afd4e1b1b0edd429b10d800a1cf64a7
+  sni: hysteria2.local
   skip-cert-verify: true
   udp: true
-- name: 未知 HY2-19 | FREE-NODES
-  server: 48.102.214.167
+- name: BY-01 1
+  server: bl1.nexfile.net
   port: 4444
   type: hysteria2
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   auth: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: fl5.edgeport.cloud
+  sni: bl1.nexfile.net
+  skip-cert-verify: true
   udp: true
-- name: V2RAY-CONFIIG 3
-  server: 31.76.62.148
-  port: 4444
+- name: 🇹🇷 土耳其 | TUR 1
+  server: tr3.h1cloud.net
+  port: 25515
   type: hysteria2
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  auth: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: lv2.nexfile.net
+  password: b36a14f8-fc3f-4142-968f-48031cf5f330
+  auth: b36a14f8-fc3f-4142-968f-48031cf5f330
+  sni: 2c74e5t.tr3.h1clayd.click
+  skip-cert-verify: true
   udp: true
 - name: TEL... 1
   server: 152.32.254.68
@@ -822,112 +844,54 @@ proxies:
   auth: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   skip-cert-verify: true
   udp: true
-- name: OUTLINERELEASEDKEY 8
-  server: 2.27.210.6
-  port: 4444
-  type: hysteria2
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  auth: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: lv2.nexfile.net
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 US-156.146.38.169-0234
-  server: 156.146.38.169
+- name: 🇩🇪 DE-2|1.5MB S
+  server: 47.254.169.3
   port: 443
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇬🇧 GB-16.60.30.137-0188
-  server: 16.60.30.137
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇯🇵 JP-84.247.155.196-0233
-  server: 84.247.155.196
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇺🇸 US-156.146.38.168-0231
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 SS-GB-1451
-  server: 158.173.24.73
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇫🇷 FR-51.44.170.122-0192
+- name: 🇫🇷 FR-51.44.170.122-0159
   server: 51.44.170.122
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 🇳🇱 NL-109.201.152.181-0149
-  server: 109.201.152.181
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US-216.105.168.18-5844
-  server: 216.105.168.18
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hCCWOcIsK5wrFz4OX70rWf
-  udp: true
-- name: 🇺🇸 US-3.16.78.3-0179
-  server: 3.16.78.3
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇺🇸 US-18.117.92.138-0167
-  server: 18.117.92.138
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇫🇷 FR-54.36.174.140-2945
-  server: 54.36.174.140
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eetk7pw
-  udp: true
-- name: 🇬🇧 GB-82.38.31.162-0205
-  server: 82.38.31.162
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇺🇸 US-156.146.38.170-0229
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US-156.146.38.167-0228
+- name: 🇺🇸 US-156.146.38.167-0215
   server: 156.146.38.167
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
+  udp: true
+- name: 🇯🇵 JP-84.247.155.196-0223
+  server: 84.247.155.196
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇩🇪 德国 | DEU 7
+  server: 47.254.175.2
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🇺🇸 US-156.146.38.169-0219
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US-216.105.168.18-0218
+  server: 216.105.168.18
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hCCWOcIsK5wrFz4OX70rWf
   udp: true
 - name: SS-ZA-1336
   server: 102.37.156.224
@@ -936,894 +900,383 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: aduB9HGxQHjA2SBMRjkHX6
   udp: true
-- name: 🇺🇸 US-198.98.53.130-5845
-  server: 198.98.53.130
+- name: 🇬🇧 SS-GB-1451
+  server: 158.173.24.73
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US-18.117.92.138-0079
+  server: 18.117.92.138
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇺🇸 US-3.16.78.3-0080
+  server: 3.16.78.3
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇺🇸 US-156.146.38.170-0213
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 GB-82.38.31.162-0170
+  server: 82.38.31.162
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: 🇬🇧 GB-82.38.31.212-0130
-  server: 82.38.31.212
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: AT-152.53.1.57-0230
-  server: 152.53.1.57
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  udp: true
-- name: 🇯🇵 JP-84.247.155.196-0221
-  server: 84.247.155.196
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇺🇸 US-38.121.43.225-0147
-  server: 38.121.43.225
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 CA-51.222.136.236-0220
-  server: 51.222.136.236
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇩🇪 DE-23.157.88.43-0131
-  server: 23.157.88.43
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-38.91.100.39-0164
-  server: 38.91.100.39
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES-66.163.118.103-0143
-  server: 66.163.118.103
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇰🇷 KR-218.237.185.234-0225
-  server: p141.panda001.net
-  port: 4652
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-- name: AE-151.241.19.36-0096
-  server: 151.241.19.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-38.91.107.188-0144
-  server: 38.91.107.188
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.193-0107
-  server: 82.38.31.193
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB-82.38.31.217-0126
-  server: 82.38.31.217
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇺🇸 US-193.151.163.18-0089
-  server: 193.151.163.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES-167.17.71.167-0193
-  server: 167.17.71.167
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇰🇷 KR-211.178.105.134-0210
-  server: 211.178.105.134
-  port: 6123
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-- name: 🇩🇪 DE SS-31 | FREE-NODES
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.46-0202
-  server: 82.38.31.46
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇩🇪 DE SS-30 | FREE-NODES
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.216-0106
-  server: 82.38.31.216
-  port: 8080
+- name: 🇫🇷 FR-54.36.174.140-0212
+  server: 54.36.174.140
+  port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇨🇦 CA-137.184.174.93-0172
-  server: 137.184.174.93
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: 🇬🇧 GB-82.38.31.208-0111
-  server: 82.38.31.208
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇩🇪 DE SS-36 | FREE-NODES
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-5773
-  server: 5.188.181.201
-  port: 9005
-  type: ss
-  cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
-  udp: true
-- name: 🇬🇧 GB-82.38.31.48-0196
-  server: 82.38.31.48
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇷🇺 RU-185.22.153.117-0222
-  server: 185.22.153.117
-  port: 18443
-  type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  udp: true
-- name: 🇺🇸 US-149.40.57.138-0137
-  server: 149.40.57.138
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-0257
-  server: 5.188.181.201
-  port: 9019
-  type: ss
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-  udp: true
-- name: 🇬🇧 GB-82.38.31.207-0098
-  server: 82.38.31.207
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇺🇸 US-169.197.142.68-0101
-  server: 169.197.142.68
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.47-0199
-  server: 82.38.31.47
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB-198.244.202.215-0211
-  server: 198.244.202.215
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-5770
-  server: 5.188.181.201
-  port: 9003
-  type: ss
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-  udp: true
-- name: 🇬🇧 GB-82.38.31.189-0116
-  server: 82.38.31.189
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB-82.38.31.219-0238
-  server: 82.38.31.219
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB-82.38.31.210-0109
-  server: 82.38.31.210
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇩🇪 DE-193.108.119.3-0129
-  server: 193.108.119.3
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇫🇷 SS-FR-1621... 4
-  server: dns24.m3hrzd.ir
-  port: 1352
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
-  udp: true
-- name: 🇺🇸 US-38.128.66.32-0133
-  server: 38.128.66.32
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇳🇱 NL-193.29.139.168-0104
-  server: 193.29.139.168
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  udp: true
-- name: SE-138.199.55.243-0170
-  server: 138.199.55.243
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: SS-SE-1560
-  server: 70.34.212.124
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
-  udp: true
-- name: 🇫🇷 FR-167.17.64.175-0207
-  server: 167.17.64.175
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.66-0198
-  server: 82.38.31.66
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB-82.38.31.184-0145
-  server: 82.38.31.184
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB-82.38.31.186-0113
-  server: 82.38.31.186
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇺🇸 US-172.111.38.72-0175
-  server: 172.111.38.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.191-0110
-  server: 82.38.31.191
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 NL-193.29.139.223-0124
-  server: 193.29.139.223
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-0253
-  server: 5.188.181.201
-  port: 9042
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-  udp: true
-- name: 🇩🇪 DE SS-35 | FREE-NODES
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 DE SS-29 | FREE-NODES
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-149.40.57.134-0216
-  server: 149.40.57.134
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: CH-186.190.215.251-0178
-  server: 186.190.215.251
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-38.114.120.221-0208
-  server: 38.114.120.221
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.187-0108
-  server: 82.38.31.187
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇪🇸 ES-79.127.139.242-0139
-  server: 79.127.139.242
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇫🇷 FR-172.99.189.142-0169
-  server: 172.99.189.142
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-38.22.17.129-0156
-  server: 38.22.17.129
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 SG-15.235.164.133-0174
-  server: 15.235.164.133
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: SS-NO-1220
-  server: 185.213.23.63
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: SS-ZA-1333
-  server: 102.133.165.160
-  port: 16233
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  udp: true
-- name: 🇸🇬 SG-149.88.107.74-0209
-  server: 149.88.107.74
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 SS-GB-1247
-  server: 94.156.250.148
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇫🇷 FR-23.162.152.22-0162
-  server: 23.162.152.22
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-146.70.61.37-0189
-  server: 146.70.61.37
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-0250
-  server: 5.188.181.201
-  port: 9054
-  type: ss
-  cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
-  udp: true
-- name: 🇬🇧 GB-82.38.31.35-0201
-  server: 82.38.31.35
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇫🇷 FR-167.17.64.22-0155
-  server: 167.17.64.22
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.203-0118
-  server: 82.38.31.203
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇸🇬 SG-68.183.227.4-0186
-  server: 68.183.227.4
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: 🇺🇸 US-137.184.89.151-0223
-  server: 137.184.89.151
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.62-0195
-  server: 82.38.31.62
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇺🇸 US-45.86.51.18-0088
-  server: 45.86.51.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-15.204.247.206-0224
-  server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 🇬🇧 GB-198.244.201.129-0213
-  server: 198.244.201.129
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 DE-57.129.83.85-0212
-  server: 57.129.83.85
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.110.60.9-0218
-  server: 82.110.60.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.190-0117
-  server: 82.38.31.190
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB-82.38.31.49-0204
-  server: 82.38.31.49
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇺🇸 US-162.251.62.31-0151
-  server: 162.251.62.31
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.180-0112
-  server: 82.38.31.180
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: CH-79.127.184.104-0246
-  server: 79.127.184.104
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-193.151.160.18-0094
-  server: 193.151.160.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 SG-149.88.106.74-0160
-  server: 149.88.106.74
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-172.111.36.123-0153
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US-185.230.230.18-0090
-  server: 185.230.230.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.61-0200
-  server: 82.38.31.61
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB-54.37.240.40-0275
-  server: 54.37.240.40
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 8nrpt2il04ptci2j
-  udp: true
-- name: 🇺🇸 US-38.121.43.18-0148
-  server: 38.121.43.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-178.83.185.156-0203
-  server: 178.83.185.156
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-0247
-  server: 5.188.181.201
-  port: 9027
-  type: ss
-  cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
-  udp: true
-- name: 🇬🇧 GB-82.38.31.179-0100
-  server: 82.38.31.179
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇨🇦 CA-51.222.141.125-0439
-  server: 51.222.141.125
-  port: 445
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇬🇧 GB-82.38.31.206-0099
-  server: 82.38.31.206
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇺🇸 US-216.106.178.169-0187
-  server: 216.106.178.169
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇯🇵 JP-168.138.205.100-5840
-  server: 168.138.205.100
-  port: 53758
+  password: eetk7pw
+  udp: true
+- name: 🇺🇸 US-156.146.38.168-0216
+  server: 156.146.38.168
+  port: 443
   type: ss
   cipher: aes-128-gcm
-  password: Bwlqh7GcFB
+  password: shadowsocks
   udp: true
-- name: 🇨🇦 CA-15.235.57.6-0194
-  server: 15.235.57.6
-  port: 8080
+- name: 🇳🇱 NL-109.201.152.181-0174
+  server: 109.201.152.181
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: kxhnt5jtykd328cg
+  cipher: aes-128-cfb
+  password: shadowsocks
   udp: true
-- name: AE-185.194.191.35-0622
-  server: dns24.m3hrzd.ir
-  port: 1349
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
-  udp: true
-- name: 🇳🇱 NL-77.221.132.206-0494
-  server: 77.221.132.206
-  port: 24759
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hCgbUnMaoAfSgvE8IKdnGu
-  udp: true
-- name: 🇸🇬 SG-15.235.182.183-0197
-  server: 15.235.182.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 CA-51.222.155.32-0236
-  server: 51.222.155.32
-  port: 5003
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-  udp: true
-- name: MX-64.177.90.30-0140
-  server: 64.177.90.30
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: BWyPPTusFKhGgzKh
-  udp: true
-- name: 🇺🇸 US-95.215.201.18-0128
-  server: 95.215.201.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: SS-IT-1554
-  server: 57.131.4.13
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: mx81glqbtlwuhcjo
-  udp: true
-- name: 🇩🇪 DE SS-33 | FREE-NODES
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 SS-CA-1546
-  server: 51.222.155.113
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇫🇷 SS-FR-1621... 5
-  server: 51.83.61.102
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 29irqk0paakcx19v
-  udp: true
-- name: 🇬🇧 GB-82.38.31.181-0119
-  server: 82.38.31.181
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB-104.222.183.180-0242
-  server: 104.222.183.180
-  port: 47195
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-5771
-  server: 5.188.181.201
-  port: 9014
+- name: 🇬🇧 GB-16.60.30.137-0156
+  server: 16.60.30.137
+  port: 443
   type: ss
   cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
+  password: amazonskr05
   udp: true
-- name: 🇩🇪 DE SS-28 | FREE-NODES
-  server: 202.50.253.36
-  port: 19999
+- name: 🇩🇪 德国 | DEU 5
+  server: 47.254.143.251
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇪🇸 ES-5.188.181.201-0249
-  server: 5.188.181.201
-  port: 9001
+- name: SS-2
+  server: 141.98.101.178
+  port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: 🇬🇧 GB-82.38.31.202-0102
-  server: 82.38.31.202
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇩🇪 DE SS-27 | FREE-NODES
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.194-0115
-  server: 82.38.31.194
-  port: 8080
+- name: RO-154.46.31.106-0497
+  server: bogging-eyeteeth-fly.freesocks.work
+  port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-- name: 🇺🇸 US-167.88.62.203-0138
-  server: 167.88.62.203
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-185.176.206.9-0163
+- name: 🇬🇧 GB-185.176.206.9-0078
   server: 185.176.206.9
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: CH-23.166.88.127-0161
-  server: 23.166.88.127
+- name: 🇺🇸 US-23.150.152.38-0139
+  server: 23.150.152.38
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇨🇦 CA-51.222.200.165-0235
-  server: 51.222.200.165
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: AE-151.241.19.29-0097
+- name: AE-151.241.19.29-0081
   server: 151.241.19.29
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 US-193.151.160.9-0092
-  server: 193.151.160.9
+- name: 🇫🇷 FR-51.83.61.102-0451
+  server: 51.83.61.102
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 29irqk0paakcx19v
+  udp: true
+- name: 🇺🇸 US-193.151.160.18-0076
+  server: 193.151.160.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇩🇪 DE SS-32 | FREE-NODES
+- name: 🇪🇸 ES-167.17.71.167-0184
+  server: 167.17.71.167
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-137.184.174.93-0132
+  server: 137.184.174.93
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇬🇧 GB-82.38.31.181-0107
+  server: 82.38.31.181
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB-82.38.31.187-0123
+  server: 82.38.31.187
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 US-172.111.38.72-0122
+  server: 172.111.38.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-104.222.183.180-0247
+  server: 104.222.183.180
+  port: 47195
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP
+  udp: true
+- name: 🇫🇷 FR-38.109.228.110-0142
+  server: 38.109.228.110
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.207-0101
+  server: 82.38.31.207
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB-82.38.31.199-0234
+  server: 82.38.31.199
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 US-185.230.230.18-0105
+  server: 185.230.230.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇫🇷 FR-172.99.189.142-0164
+  server: 172.99.189.142
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: SS-SE-1620
+  server: 62.182.193.228
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2e555e46dbc421452416834962fd014f
+  udp: true
+- name: 🇩🇪 DE SS-30 | FREE-NODES
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-38.114.120.221-0192
+  server: 38.114.120.221
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG-51.79.228.131-0175
+  server: 51.79.228.131
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-167.88.63.99-0127
+  server: 167.88.63.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-142.202.51.22-0136
+  server: 142.202.51.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.48-0172
+  server: 82.38.31.48
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇨🇦 SS-CA-1555
+  server: 15.235.121.109
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 575hiopq2h28yao6
+  udp: true
+- name: 🇬🇧 GB-82.38.31.218-0241
+  server: 82.38.31.218
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-0226
+  server: 5.188.181.201
+  port: 9031
+  type: ss
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
+  udp: true
+- name: 🇯🇵 JP-168.138.205.100-0221
+  server: 168.138.205.100
+  port: 53758
+  type: ss
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+  udp: true
+- name: 🇯🇵 JP-84.247.155.196-0209
+  server: 84.247.155.196
+  port: 80
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇭🇰 SS-HK-1621... 1
+  server: 209.248.57.105
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
+  udp: true
+- name: 🇬🇧 GB-82.38.31.217-0094
+  server: 82.38.31.217
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 US-216.106.178.169-0186
+  server: 216.106.178.169
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 DE SS-33 | FREE-NODES
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇯🇵 JP-154.36.158.197-0250
+  server: 154.36.158.197
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+  udp: true
+- name: 🇩🇪 DE SS-34 | FREE-NODES
   server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: SS-5
-  server: amasoid.ddns.net
-  port: 14514
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: b7I6g7l7fJhBaMInJ+zkzw==
-  udp: true
-- name: 🇨🇦 SS-CA-1545
-  server: 51.79.64.198
-  port: 8119
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇩🇪 DE-193.108.119.2-0136
-  server: 193.108.119.2
+- name: CH-23.166.88.127-0199
+  server: 23.166.88.127
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-51.222.136.236-0202
+  server: 51.222.136.236
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 US-38.91.100.39-0143
+  server: 38.91.100.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: SS-AL-1490
+  server: 130.49.189.158
+  port: 43558
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.219-0197
+  server: 82.38.31.219
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB-82.38.31.208-0086
+  server: 82.38.31.208
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇸🇬 SG-68.183.227.4-0182
+  server: 68.183.227.4
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇬🇧 GB-82.38.31.186-0088
+  server: 82.38.31.186
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 SS-NL-1618
   server: 156.67.120.205
@@ -1832,138 +1285,376 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
   udp: true
-- name: SS-IT-1597
-  server: 185.164.175.81
-  port: 19999
+- name: MX-64.177.90.30-0161
+  server: 64.177.90.30
+  port: 8388
   type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  password: BWyPPTusFKhGgzKh
   udp: true
-- name: 🇺🇸 US-149.40.57.133-0142
-  server: 149.40.57.133
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 SG-149.88.106.73-0154
-  server: 149.88.106.73
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-0252
-  server: 5.188.181.201
-  port: 9031
-  type: ss
-  cipher: aes-256-cfb
-  password: BwcAUZk8hUFAkDGN
-  udp: true
-- name: 🇺🇸 US-38.22.17.219-0165
-  server: 38.22.17.219
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 SG-51.79.228.131-0206
-  server: 51.79.228.131
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB-82.38.31.214-0103
-  server: 82.38.31.214
+- name: 🇬🇧 GB-82.38.31.206-0090
+  server: 82.38.31.206
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧 GB-82.38.31.192-0122
+- name: 🇺🇸 US-38.121.43.18-0124
+  server: 38.121.43.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 SS-CA-1559... 1
+  server: 51.79.85.185
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇫🇷 FR-167.17.64.22-0151
+  server: 167.17.64.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.110.60.9-0087
+  server: 82.110.60.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.49-0171
+  server: 82.38.31.49
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇩🇪 DE-23.157.88.43-0115
+  server: 23.157.88.43
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.46-0163
+  server: 82.38.31.46
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇩🇪 DE-193.108.119.2-0204
+  server: 193.108.119.2
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 DE SS-29 | FREE-NODES
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-38.128.66.32-0140
+  server: 38.128.66.32
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-38.121.43.225-0117
+  server: 38.121.43.225
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: SS-AT-1614
+  server: 152.53.1.57
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  udp: true
+- name: 🇨🇦 CA-51.222.141.125-0201
+  server: 51.222.141.125
+  port: 445
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: IT-57.131.4.13-0482
+  server: 57.131.4.13
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mx81glqbtlwuhcjo
+  udp: true
+- name: 🇨🇦 SS-CA-1546
+  server: 51.222.155.113
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇯🇵 JP-168.138.205.100-5406
+  server: jpa.123069.xyz
+  port: 53758
+  type: ss
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-5335
+  server: 5.188.181.201
+  port: 9011
+  type: ss
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
+  udp: true
+- name: 🇬🇧 GB-82.38.31.180-0093
+  server: 82.38.31.180
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB-82.38.31.203-0102
+  server: 82.38.31.203
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇩🇪 DE-193.108.119.3-0113
+  server: 193.108.119.3
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.192-0097
   server: 82.38.31.192
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇪🇸 ES-5.188.181.201-0251
+- name: 🇬🇧 SS-GB-1247
+  server: 94.156.250.148
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇺🇸 US-15.204.247.206-0203
+  server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-0207
   server: 5.188.181.201
-  port: 9041
+  port: 9037
   type: ss
   cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
+  password: TN2YqghxeFDKZfLU
   udp: true
-- name: 🇬🇧 GB-82.38.31.205-0120
-  server: 82.38.31.205
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇺🇸 US-23.150.152.38-0157
-  server: 23.150.152.38
+- name: 🇪🇸 ES-79.127.139.242-0116
+  server: 79.127.139.242
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇫🇷 FR-167.17.64.27-0215
+- name: 🇩🇪 DE SS-32 | FREE-NODES
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇫🇷 FR-167.17.64.27-0194
   server: 167.17.64.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇬🇧 GB-82.38.31.199-0254
-  server: 82.38.31.199
+- name: 🇬🇧 GB-82.38.31.216-0089
+  server: 82.38.31.216
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇺🇸 US-38.121.43.231-0171
-  server: 38.121.43.231
+- name: 🇬🇧 GB-82.38.31.202-0092
+  server: 82.38.31.202
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB-82.38.31.214-0100
+  server: 82.38.31.214
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 US-193.151.160.9-0075
+  server: 193.151.160.9
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 US-167.88.63.99-0159
-  server: 167.88.63.99
+- name: 🇸🇬 SG-149.88.106.74-0158
+  server: 149.88.106.74
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇪🇸 ES-5.188.181.201-0217
+- name: 🇫🇷 SS-FR-1621... 5
+  server: 51.77.144.182
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: x19py0a8ipglqkbe
+  udp: true
+- name: 🇬🇧 GB-82.38.31.62-0178
+  server: 82.38.31.62
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB-82.38.31.210-0083
+  server: 82.38.31.210
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB-82.38.31.35-0168
+  server: 82.38.31.35
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB-82.38.31.184-0095
+  server: 82.38.31.184
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇨🇦 CA-51.222.200.165-0220
+  server: 51.222.200.165
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: CH-79.127.184.104-0195
+  server: 79.127.184.104
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-146.70.61.37-0146
+  server: 146.70.61.37
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-0268
   server: 5.188.181.201
   port: 9030
   type: ss
   cipher: aes-256-cfb
   password: GeregetR8cvQHzYr
   udp: true
-- name: 🇩🇪 DE SS-34 | FREE-NODES
-  server: 202.50.253.99
+- name: 🇺🇸 US-193.151.163.18-0077
+  server: 193.151.163.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇸🇬 SG-149.88.107.47-0185
-  server: 149.88.107.47
+- name: 🇺🇸 US-149.40.57.134-0166
+  server: 149.40.57.134
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇫🇷 FR-38.109.228.110-0176
-  server: 38.109.228.110
+- name: 🇰🇷 KR-211.178.105.134-0206
+  server: 211.178.105.134
+  port: 6123
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: SE-138.199.55.243-0148
+  server: 138.199.55.243
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇫🇷 FR-23.162.152.22-0196
+  server: 23.162.152.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG-15.235.182.183-0188
+  server: 15.235.182.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: SS-ZA-1333
+  server: 102.133.165.160
+  port: 16233
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  udp: true
+- name: 🇺🇸 US-38.22.17.219-0133
+  server: 38.22.17.219
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-169.197.142.68-0121
+  server: 169.197.142.68
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.193-0091
+  server: 82.38.31.193
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇺🇸 SS-US-1620
   server: 23.230.52.119
@@ -1972,54 +1663,390 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
   udp: true
-- name: 🇬🇧 GB-82.38.31.218-0226
-  server: 82.38.31.218
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇪🇸 ES-5.188.181.201-5776
-  server: 5.188.181.201
-  port: 9025
-  type: ss
-  cipher: aes-256-cfb
-  password: XPtzA9sCug3SPR4c
-  udp: true
-- name: 🇳🇱 NL-193.29.139.147-0105
-  server: 193.29.139.147
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇺🇸 US-84.20.27.183-0123
-  server: 84.20.27.183
+- name: 🇺🇸 US-172.111.36.123-0144
+  server: 172.111.36.123
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇪🇸 ES-5.188.181.201-7981
-  server: 5.188.181.201
-  port: 9037
+- name: 🇺🇸 US-45.86.51.18-0111
+  server: 45.86.51.18
+  port: 19999
   type: ss
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: SS
+- name: 🇬🇧 GB-82.38.31.179-0096
+  server: 82.38.31.179
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 US-95.215.201.18-0157
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG-15.235.164.133-0187
+  server: 15.235.164.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇷🇺 RU-130.49.189.158-0425
   server: 130.49.189.158
   port: 43558
   type: ss
   cipher: chacha20-ietf-poly1305
   password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
   udp: true
-- name: 🇬🇧 GB-142.202.51.22-0166
-  server: 142.202.51.22
+- name: 🇪🇸 ES-5.188.181.201-0229
+  server: 5.188.181.201
+  port: 9019
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-5334
+  server: 5.188.181.201
+  port: 9029
+  type: ss
+  cipher: aes-256-cfb
+  password: dU3DSNS8wYPXzEKw
+  udp: true
+- name: 🇹🇼 SS-TW-1620
+  server: amasoid.ddns.net
+  port: 14514
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: b7I6g7l7fJhBaMInJ+zkzw==
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-0236
+  server: 5.188.181.201
+  port: 9014
+  type: ss
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+  udp: true
+- name: 🇬🇧 GB-82.38.31.212-0099
+  server: 82.38.31.212
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇰🇷 KR-218.237.185.234-0205
+  server: p141.panda001.net
+  port: 4652
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🇰🇷 SS-KR-1126
+  server: 115.161.136.145
+  port: 10099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: '12242'
+  udp: true
+- name: 🇩🇪 DE SS-36 | FREE-NODES
+  server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 DE SS-31 | FREE-NODES
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.66-0167
+  server: 82.38.31.66
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB-82.38.31.205-0108
+  server: 82.38.31.205
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB-82.38.31.194-0265
+  server: 82.38.31.194
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 US-38.121.43.231-0138
+  server: 38.121.43.231
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇫🇷 FR-167.17.64.175-0189
+  server: 167.17.64.175
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: CH-186.190.215.251-0165
+  server: 186.190.215.251
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-137.184.89.151-0134
+  server: 137.184.89.151
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 DE SS-38 | FREE-NODES
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-198.244.201.129-0198
+  server: 198.244.201.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 DE-57.129.83.85-0210
+  server: 57.129.83.85
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-0238
+  server: 5.188.181.201
+  port: 9003
+  type: ss
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+  udp: true
+- name: 🇬🇧 SS-GB-1621
+  server: 54.37.240.40
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 8nrpt2il04ptci2j
+  udp: true
+- name: 🇸🇬 SG-149.88.106.73-0150
+  server: 149.88.106.73
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-0227
+  server: 5.188.181.201
+  port: 9041
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+  udp: true
+- name: 🇺🇸 US-38.22.17.129-0145
+  server: 38.22.17.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 DE SS-35 | FREE-NODES
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-167.88.62.203-0130
+  server: 167.88.62.203
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG-149.88.107.74-0135
+  server: 149.88.107.74
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-149.40.57.133-0118
+  server: 149.40.57.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL-193.29.139.147-0085
+  server: 193.29.139.147
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇷🇺 RU-185.22.153.117-0193
+  server: 185.22.153.117
+  port: 18443
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  udp: true
+- name: 🇬🇧 GB-82.38.31.191-0084
+  server: 82.38.31.191
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: SS-IT-1597
+  server: 185.164.175.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-51.222.155.32-0208
+  server: 51.222.155.32
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: 🇬🇧 GB-198.244.202.215-0200
+  server: 198.244.202.215
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇪🇸 ES-5.188.181.201-0230
+  server: 5.188.181.201
+  port: 9054
+  type: ss
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
+  udp: true
+- name: 🇬🇧 GB-82.38.31.61-0173
+  server: 82.38.31.61
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇺🇸 US-84.20.27.183-0104
+  server: 84.20.27.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇪🇸 ES-66.163.118.103-0149
+  server: 66.163.118.103
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-149.40.57.138-0120
+  server: 149.40.57.138
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-162.251.62.31-0153
+  server: 162.251.62.31
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 SS-NL-1622
+  server: 194.87.233.93
+  port: 46190
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe
+  udp: true
+- name: 🇩🇪 DE SS-37 | FREE-NODES
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-82.38.31.47-0177
+  server: 82.38.31.47
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB-178.83.185.156-0169
+  server: 178.83.185.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇸🇬 SG-149.88.107.47-0181
+  server: 149.88.107.47
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL-193.29.139.168-0266
+  server: 193.29.139.168
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇺🇸 US-38.91.107.188-0152
+  server: 38.91.107.188
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: AE-151.241.19.36-0082
+  server: 151.241.19.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-15.235.57.6-0225
+  server: 15.235.57.6
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: kxhnt5jtykd328cg
   udp: true
 proxy-groups:
 - name: 🚀 自动选择
@@ -2028,256 +2055,260 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 🇪🇸 西班牙 2
-  - 🇩🇪 DE VLESS-10 | FREE-NODES
-  - 🇨🇦 VLESS-CA-1... 2
-  - 🇩🇪 DE VLESS-23 | FREE-NODES
-  - 🇯🇵 VLESS-JP-1... 8
-  - 🇺🇸 US VLESS-04 | FREE-NODES
+  - 🇳🇱 NL-荷兰-IPV4
   - 🇨🇦 VLESS-CA
-  - 🇩🇪 VLESS-DE-1... 9
-  - 🇩🇪 DE VLESS-20 | FREE-NODES
-  - 🇳🇱 VLESS-NL-1... 5
-  - 未知 VLESS-25 | FREE-NODES
-  - VLESS-FI-1... 5
-  - VLESS-17
-  - 未知 VLESS-13 | FREE-NODES
-  - 🇨🇦 VLESS-CA-1... 3
-  - 🇺🇸 美国 | USA 10
-  - 🇺🇸 US VLESS-15 | FREE-NODES
-  - 🇸🇨 塞舌尔
-  - VLESS-1
-  - GE-31 1
-  - 🇺🇸 US VLESS-17 | FREE-NODES
-  - VLESS-FI 1
-  - VLESS-AE-1... 1
-  - 🇰🇷 VLESS-KR-1
-  - 🇩🇪 VLESS-DE-1... 7
-  - 🇸🇬 SG VLESS-18 | FREE-NODES
-  - VLESS-BY-1... 2
-  - 🇮🇳 VLESS-IN-1... 3
-  - VLESS-3
-  - VLESS-22
+  - 🇳🇱 荷兰 | NLD 2
+  - 🇪🇸 西班牙
+  - 🇩🇪 DE VLESS-02 | FREE-NODES
+  - 未知 VLESS-28 | FREE-NODES
+  - 🇳🇱 NL-14|1.2MB S
+  - 🇩🇪 VLESS-DE-1... 13
+  - 🇸🇬 VLESS-SG-8... 1
+  - 未知 VLESS-27 | FREE-NODES
+  - 🇺🇸 美国 | USA 21-IPV4
+  - 🇳🇱 荷兰 | NLD 5
+  - 🇺🇸 US VLESS-19 | FREE-NODES
   - VLESS-AE-1
+  - 🇯🇵 JP-日本-IPV4
   - VLESS-SE-1... 1
-  - 🇸🇬 SG VLESS-11 | FREE-NODES
-  - VLESS-BY-1... 1
-  - VLESS-EE-1... 4
+  - VLESS-BY-1... 2
+  - 🇰🇷 VLESS-KR-1
+  - VLESS-BY-1... 3
+  - VLESS-VN-1
+  - 🇮🇳 VLESS-IN-1... 3
+  - VLESS-TH-1
+  - VLESS-FI-1... 3
+  - VLESS-TH-1... 1
+  - 🇯🇵 日本
   - VLESS-SE-1... 3
-  - 🇺🇸 US-167.88.61.175-0093
-  - 🇩🇪 DE-193.108.119.193-0146
-  - 🇩🇪 DE-193.108.119.15-0135
-  - 🇰🇷 KR-158.247.253.243-0152
-  - 🇺🇸 US-169.197.140.218-0095
-  - CL-64.176.7.205-0125
-  - TROJAN-SE-... 1
-  - CH-208.69.78.33-0523
-  - 🇺🇸 US-167.88.61.52-0091
-  - 🇺🇸 US-66.163.112.121-0150
-  - 🇦🇺 AU-45.63.30.142-0114
-  - 🇸🇬 SG-149.28.130.108-0127
-  - 🇺🇸 US-66.163.112.13-0168
-  - BR-216.238.104.154-0134
-  - 🇳🇱 TROJAN-NL
-  - 🇨🇦 TROJAN-CA-... 6
-  - 🇺🇸 US-216.106.186.33-0219
-  - 🇨🇦 TROJAN-CA
-  - 🇸🇬 SG-15.235.184.127-0268
-  - 🇩🇪 DE-193.108.119.29-0277
-  - 🇩🇪 DE-193.108.119.96-0141
-  - 未知 TROJAN-24 | FREE-NODES
-  - 🇭🇰 HK-16.106.7.232-0269
-  - 🇩🇪 DE-217.217.222.230-0270
-  - TROJAN-TR-... 1
+  - 🇩🇪 VLESS-DE-1... 3
+  - 🇺🇸 US VLESS-06 | FREE-NODES
+  - 🇸🇬 SG VLESS-08 | FREE-NODES
+  - 🇩🇪 VLESS-DE-1... 10
+  - VLESS-EE-1... 4
+  - VLESS-BY-1... 1
+  - 🇵🇱 波兰 | POL
+  - 🇺🇸 US-167.88.61.175-0112
+  - BR-216.238.104.154-0106
+  - 🇸🇬 SG-149.28.130.108-0147
+  - 🇺🇸 US-167.88.61.52-0131
+  - 🇩🇪 DE-193.108.119.15-0109
+  - 🇰🇷 KR-158.247.253.243-0154
+  - 🇺🇸 US-216.106.186.33-0217
+  - 🇩🇪 DE-193.108.119.193-0110
+  - 🇦🇺 AU-45.63.30.142-0125
+  - CH-208.69.78.33-0224
+  - 🇺🇸 US-66.163.112.121-0119
+  - 🇩🇪 DE-193.108.119.96-0114
+  - 🇨🇦 TROJAN-CA-... 5
+  - 🇺🇸 US-66.163.112.13-0128
+  - CL-64.176.7.205-0098
+  - 🇨🇦 TROJAN-CA-... 1
+  - 🇸🇬 SG-15.235.184.127-0240
+  - 🇩🇪 DE-193.108.119.29-0103
+  - TR TROJAN-09 | FREE-NODES
+  - 🇸🇬 SG TROJAN-17 | FREE-NODES
+  - TROJAN-AE-... 4
+  - 🇭🇰 HK-16.106.7.232-0252
+  - 🇳🇬 尼日利亚 | NGA 1
   - TROJAN-NG
-  - 🇸🇬 SG TROJAN-22 | FREE-NODES
-  - TROJAN-TR
-  - 🇹🇼 TW-台湾-US-美国-IPV4
-  - SC-156.239.224.107-0262
-  - 🇫🇷 FR-145.239.55.210-0227
-  - 🇭🇰 HK-156.245.232.239-5893
-  - OUTLINERELEASEDKEY
-  - VPNBAZ
+  - 🇺🇸 US-157.254.38.210-0244
+  - TR TROJAN-15 | FREE-NODES
+  - 🇺🇸 美国 | USA 3
+  - 🇫🇷 FR-145.239.55.210-0222
+  - 🇺🇸 美国 ALABANZA
+  - 🇭🇰 中国-香港-3
+  - 🇺🇸 美国 ALABANZA 2
+  - 🇩🇪 德国 | DEU 2
+  - 🇩🇪 DE-德国-IPV4
+  - 🇷🇴 罗马尼亚 | ROU 1
+  - 43 ONECLICKVPNKEYS
   - 42 ONECLICKVPNKEYS
+  - 33 ONECLICKVPNKEYS
+  - 69 ONECLICKVPNKEYS
   - 6 ONECLICKVPNKEYS
-  - 32 ONECLICKVPNKEYS
-  - V2RAYNPVTCONFIG
+  - 66 ONECLICKVPNKEYS
   - 92 ONECLICKVPNKEYS
-  - 未知 HY2-19 | FREE-NODES
-  - V2RAY-CONFIIG 3
+  - OUTLINERELEASEDKEY
+  - 32 ONECLICKVPNKEYS
+  - VPNBAZ
+  - 97 ONECLICKVPNKEYS
+  - BY-01 1
+  - 🇹🇷 土耳其 | TUR 1
   - TEL... 1
   - 12 EXCLAVEVPN 2
-  - OUTLINERELEASEDKEY 8
-  - 🇺🇸 US-156.146.38.169-0234
-  - 🇬🇧 GB-16.60.30.137-0188
-  - 🇯🇵 JP-84.247.155.196-0233
-  - 🇺🇸 US-156.146.38.168-0231
-  - 🇬🇧 SS-GB-1451
-  - 🇫🇷 FR-51.44.170.122-0192
-  - 🇳🇱 NL-109.201.152.181-0149
-  - 🇺🇸 US-216.105.168.18-5844
-  - 🇺🇸 US-3.16.78.3-0179
-  - 🇺🇸 US-18.117.92.138-0167
-  - 🇫🇷 FR-54.36.174.140-2945
-  - 🇬🇧 GB-82.38.31.162-0205
-  - 🇺🇸 US-156.146.38.170-0229
-  - 🇺🇸 US-156.146.38.167-0228
+  - 🇩🇪 DE-2|1.5MB S
+  - 🇫🇷 FR-51.44.170.122-0159
+  - 🇺🇸 US-156.146.38.167-0215
+  - 🇯🇵 JP-84.247.155.196-0223
+  - 🇩🇪 德国 | DEU 7
+  - 🇺🇸 US-156.146.38.169-0219
+  - 🇺🇸 US-216.105.168.18-0218
   - SS-ZA-1336
-  - 🇺🇸 US-198.98.53.130-5845
-  - 🇬🇧 GB-82.38.31.212-0130
-  - AT-152.53.1.57-0230
-  - 🇯🇵 JP-84.247.155.196-0221
-  - 🇺🇸 US-38.121.43.225-0147
-  - 🇨🇦 CA-51.222.136.236-0220
-  - 🇩🇪 DE-23.157.88.43-0131
-  - 🇺🇸 US-38.91.100.39-0164
-  - 🇪🇸 ES-66.163.118.103-0143
-  - 🇰🇷 KR-218.237.185.234-0225
-  - AE-151.241.19.36-0096
-  - 🇺🇸 US-38.91.107.188-0144
-  - 🇬🇧 GB-82.38.31.193-0107
-  - 🇬🇧 GB-82.38.31.217-0126
-  - 🇺🇸 US-193.151.163.18-0089
-  - 🇪🇸 ES-167.17.71.167-0193
-  - 🇰🇷 KR-211.178.105.134-0210
-  - 🇩🇪 DE SS-31 | FREE-NODES
-  - 🇬🇧 GB-82.38.31.46-0202
+  - 🇬🇧 SS-GB-1451
+  - 🇺🇸 US-18.117.92.138-0079
+  - 🇺🇸 US-3.16.78.3-0080
+  - 🇺🇸 US-156.146.38.170-0213
+  - 🇬🇧 GB-82.38.31.162-0170
+  - 🇫🇷 FR-54.36.174.140-0212
+  - 🇺🇸 US-156.146.38.168-0216
+  - 🇳🇱 NL-109.201.152.181-0174
+  - 🇬🇧 GB-16.60.30.137-0156
+  - 🇩🇪 德国 | DEU 5
+  - SS-2
+  - RO-154.46.31.106-0497
+  - 🇬🇧 GB-185.176.206.9-0078
+  - 🇺🇸 US-23.150.152.38-0139
+  - AE-151.241.19.29-0081
+  - 🇫🇷 FR-51.83.61.102-0451
+  - 🇺🇸 US-193.151.160.18-0076
+  - 🇪🇸 ES-167.17.71.167-0184
+  - 🇨🇦 CA-137.184.174.93-0132
+  - 🇬🇧 GB-82.38.31.181-0107
+  - 🇬🇧 GB-82.38.31.187-0123
+  - 🇺🇸 US-172.111.38.72-0122
+  - 🇬🇧 GB-104.222.183.180-0247
+  - 🇫🇷 FR-38.109.228.110-0142
+  - 🇬🇧 GB-82.38.31.207-0101
+  - 🇬🇧 GB-82.38.31.199-0234
+  - 🇺🇸 US-185.230.230.18-0105
+  - 🇫🇷 FR-172.99.189.142-0164
+  - SS-SE-1620
   - 🇩🇪 DE SS-30 | FREE-NODES
-  - 🇬🇧 GB-82.38.31.216-0106
-  - 🇨🇦 CA-137.184.174.93-0172
-  - 🇬🇧 GB-82.38.31.208-0111
-  - 🇩🇪 DE SS-36 | FREE-NODES
-  - 🇪🇸 ES-5.188.181.201-5773
-  - 🇬🇧 GB-82.38.31.48-0196
-  - 🇷🇺 RU-185.22.153.117-0222
-  - 🇺🇸 US-149.40.57.138-0137
-  - 🇪🇸 ES-5.188.181.201-0257
-  - 🇬🇧 GB-82.38.31.207-0098
-  - 🇺🇸 US-169.197.142.68-0101
-  - 🇬🇧 GB-82.38.31.47-0199
-  - 🇬🇧 GB-198.244.202.215-0211
-  - 🇪🇸 ES-5.188.181.201-5770
-  - 🇬🇧 GB-82.38.31.189-0116
-  - 🇬🇧 GB-82.38.31.219-0238
-  - 🇬🇧 GB-82.38.31.210-0109
-  - 🇩🇪 DE-193.108.119.3-0129
-  - 🇫🇷 SS-FR-1621... 4
-  - 🇺🇸 US-38.128.66.32-0133
-  - 🇳🇱 NL-193.29.139.168-0104
-  - SE-138.199.55.243-0170
-  - SS-SE-1560
-  - 🇫🇷 FR-167.17.64.175-0207
-  - 🇬🇧 GB-82.38.31.66-0198
-  - 🇬🇧 GB-82.38.31.184-0145
-  - 🇬🇧 GB-82.38.31.186-0113
-  - 🇺🇸 US-172.111.38.72-0175
-  - 🇬🇧 GB-82.38.31.191-0110
-  - 🇳🇱 NL-193.29.139.223-0124
-  - 🇪🇸 ES-5.188.181.201-0253
-  - 🇩🇪 DE SS-35 | FREE-NODES
-  - 🇩🇪 DE SS-29 | FREE-NODES
-  - 🇺🇸 US-149.40.57.134-0216
-  - CH-186.190.215.251-0178
-  - 🇬🇧 GB-38.114.120.221-0208
-  - 🇬🇧 GB-82.38.31.187-0108
-  - 🇪🇸 ES-79.127.139.242-0139
-  - 🇫🇷 FR-172.99.189.142-0169
-  - 🇺🇸 US-38.22.17.129-0156
-  - 🇸🇬 SG-15.235.164.133-0174
-  - SS-NO-1220
-  - SS-ZA-1333
-  - 🇸🇬 SG-149.88.107.74-0209
-  - 🇬🇧 SS-GB-1247
-  - 🇫🇷 FR-23.162.152.22-0162
-  - 🇬🇧 GB-146.70.61.37-0189
-  - 🇪🇸 ES-5.188.181.201-0250
-  - 🇬🇧 GB-82.38.31.35-0201
-  - 🇫🇷 FR-167.17.64.22-0155
-  - 🇬🇧 GB-82.38.31.203-0118
-  - 🇸🇬 SG-68.183.227.4-0186
-  - 🇺🇸 US-137.184.89.151-0223
-  - 🇬🇧 GB-82.38.31.62-0195
-  - 🇺🇸 US-45.86.51.18-0088
-  - 🇺🇸 US-15.204.247.206-0224
-  - 🇬🇧 GB-198.244.201.129-0213
-  - 🇩🇪 DE-57.129.83.85-0212
-  - 🇬🇧 GB-82.110.60.9-0218
-  - 🇬🇧 GB-82.38.31.190-0117
-  - 🇬🇧 GB-82.38.31.49-0204
-  - 🇺🇸 US-162.251.62.31-0151
-  - 🇬🇧 GB-82.38.31.180-0112
-  - CH-79.127.184.104-0246
-  - 🇺🇸 US-193.151.160.18-0094
-  - 🇸🇬 SG-149.88.106.74-0160
-  - 🇺🇸 US-172.111.36.123-0153
-  - 🇺🇸 US-185.230.230.18-0090
-  - 🇬🇧 GB-82.38.31.61-0200
-  - 🇬🇧 GB-54.37.240.40-0275
-  - 🇺🇸 US-38.121.43.18-0148
-  - 🇬🇧 GB-178.83.185.156-0203
-  - 🇪🇸 ES-5.188.181.201-0247
-  - 🇬🇧 GB-82.38.31.179-0100
-  - 🇨🇦 CA-51.222.141.125-0439
-  - 🇬🇧 GB-82.38.31.206-0099
-  - 🇺🇸 US-216.106.178.169-0187
-  - 🇯🇵 JP-168.138.205.100-5840
-  - 🇨🇦 CA-15.235.57.6-0194
-  - AE-185.194.191.35-0622
-  - 🇳🇱 NL-77.221.132.206-0494
-  - 🇸🇬 SG-15.235.182.183-0197
-  - 🇨🇦 CA-51.222.155.32-0236
-  - MX-64.177.90.30-0140
-  - 🇺🇸 US-95.215.201.18-0128
-  - SS-IT-1554
+  - 🇬🇧 GB-38.114.120.221-0192
+  - 🇸🇬 SG-51.79.228.131-0175
+  - 🇺🇸 US-167.88.63.99-0127
+  - 🇬🇧 GB-142.202.51.22-0136
+  - 🇬🇧 GB-82.38.31.48-0172
+  - 🇨🇦 SS-CA-1555
+  - 🇬🇧 GB-82.38.31.218-0241
+  - 🇪🇸 ES-5.188.181.201-0226
+  - 🇯🇵 JP-168.138.205.100-0221
+  - 🇯🇵 JP-84.247.155.196-0209
+  - 🇭🇰 SS-HK-1621... 1
+  - 🇬🇧 GB-82.38.31.217-0094
+  - 🇺🇸 US-216.106.178.169-0186
   - 🇩🇪 DE SS-33 | FREE-NODES
-  - 🇨🇦 SS-CA-1546
-  - 🇫🇷 SS-FR-1621... 5
-  - 🇬🇧 GB-82.38.31.181-0119
-  - 🇬🇧 GB-104.222.183.180-0242
-  - 🇪🇸 ES-5.188.181.201-5771
-  - 🇩🇪 DE SS-28 | FREE-NODES
-  - 🇪🇸 ES-5.188.181.201-0249
-  - 🇬🇧 GB-82.38.31.202-0102
-  - 🇩🇪 DE SS-27 | FREE-NODES
-  - 🇬🇧 GB-82.38.31.194-0115
-  - 🇺🇸 US-167.88.62.203-0138
-  - 🇬🇧 GB-185.176.206.9-0163
-  - CH-23.166.88.127-0161
-  - 🇨🇦 CA-51.222.200.165-0235
-  - AE-151.241.19.29-0097
-  - 🇺🇸 US-193.151.160.9-0092
-  - 🇩🇪 DE SS-32 | FREE-NODES
-  - SS-5
-  - 🇨🇦 SS-CA-1545
-  - 🇩🇪 DE-193.108.119.2-0136
-  - 🇳🇱 SS-NL-1618
-  - SS-IT-1597
-  - 🇺🇸 US-149.40.57.133-0142
-  - 🇸🇬 SG-149.88.106.73-0154
-  - 🇪🇸 ES-5.188.181.201-0252
-  - 🇺🇸 US-38.22.17.219-0165
-  - 🇸🇬 SG-51.79.228.131-0206
-  - 🇬🇧 GB-82.38.31.214-0103
-  - 🇬🇧 GB-82.38.31.192-0122
-  - 🇪🇸 ES-5.188.181.201-0251
-  - 🇬🇧 GB-82.38.31.205-0120
-  - 🇺🇸 US-23.150.152.38-0157
-  - 🇫🇷 FR-167.17.64.27-0215
-  - 🇬🇧 GB-82.38.31.199-0254
-  - 🇺🇸 US-38.121.43.231-0171
-  - 🇺🇸 US-167.88.63.99-0159
-  - 🇪🇸 ES-5.188.181.201-0217
+  - 🇯🇵 JP-154.36.158.197-0250
   - 🇩🇪 DE SS-34 | FREE-NODES
-  - 🇸🇬 SG-149.88.107.47-0185
-  - 🇫🇷 FR-38.109.228.110-0176
+  - CH-23.166.88.127-0199
+  - 🇨🇦 CA-51.222.136.236-0202
+  - 🇺🇸 US-38.91.100.39-0143
+  - SS-AL-1490
+  - 🇬🇧 GB-82.38.31.219-0197
+  - 🇬🇧 GB-82.38.31.208-0086
+  - 🇸🇬 SG-68.183.227.4-0182
+  - 🇬🇧 GB-82.38.31.186-0088
+  - 🇳🇱 SS-NL-1618
+  - MX-64.177.90.30-0161
+  - 🇬🇧 GB-82.38.31.206-0090
+  - 🇺🇸 US-38.121.43.18-0124
+  - 🇨🇦 SS-CA-1559... 1
+  - 🇫🇷 FR-167.17.64.22-0151
+  - 🇬🇧 GB-82.110.60.9-0087
+  - 🇬🇧 GB-82.38.31.49-0171
+  - 🇩🇪 DE-23.157.88.43-0115
+  - 🇬🇧 GB-82.38.31.46-0163
+  - 🇩🇪 DE-193.108.119.2-0204
+  - 🇩🇪 DE SS-29 | FREE-NODES
+  - 🇺🇸 US-38.128.66.32-0140
+  - 🇺🇸 US-38.121.43.225-0117
+  - SS-AT-1614
+  - 🇨🇦 CA-51.222.141.125-0201
+  - IT-57.131.4.13-0482
+  - 🇨🇦 SS-CA-1546
+  - 🇯🇵 JP-168.138.205.100-5406
+  - 🇪🇸 ES-5.188.181.201-5335
+  - 🇬🇧 GB-82.38.31.180-0093
+  - 🇬🇧 GB-82.38.31.203-0102
+  - 🇩🇪 DE-193.108.119.3-0113
+  - 🇬🇧 GB-82.38.31.192-0097
+  - 🇬🇧 SS-GB-1247
+  - 🇺🇸 US-15.204.247.206-0203
+  - 🇪🇸 ES-5.188.181.201-0207
+  - 🇪🇸 ES-79.127.139.242-0116
+  - 🇩🇪 DE SS-32 | FREE-NODES
+  - 🇫🇷 FR-167.17.64.27-0194
+  - 🇬🇧 GB-82.38.31.216-0089
+  - 🇬🇧 GB-82.38.31.202-0092
+  - 🇬🇧 GB-82.38.31.214-0100
+  - 🇺🇸 US-193.151.160.9-0075
+  - 🇸🇬 SG-149.88.106.74-0158
+  - 🇫🇷 SS-FR-1621... 5
+  - 🇬🇧 GB-82.38.31.62-0178
+  - 🇬🇧 GB-82.38.31.210-0083
+  - 🇬🇧 GB-82.38.31.35-0168
+  - 🇬🇧 GB-82.38.31.184-0095
+  - 🇨🇦 CA-51.222.200.165-0220
+  - CH-79.127.184.104-0195
+  - 🇬🇧 GB-146.70.61.37-0146
+  - 🇪🇸 ES-5.188.181.201-0268
+  - 🇺🇸 US-193.151.163.18-0077
+  - 🇺🇸 US-149.40.57.134-0166
+  - 🇰🇷 KR-211.178.105.134-0206
+  - SE-138.199.55.243-0148
+  - 🇫🇷 FR-23.162.152.22-0196
+  - 🇸🇬 SG-15.235.182.183-0188
+  - SS-ZA-1333
+  - 🇺🇸 US-38.22.17.219-0133
+  - 🇺🇸 US-169.197.142.68-0121
+  - 🇬🇧 GB-82.38.31.193-0091
   - 🇺🇸 SS-US-1620
-  - 🇬🇧 GB-82.38.31.218-0226
-  - 🇪🇸 ES-5.188.181.201-5776
-  - 🇳🇱 NL-193.29.139.147-0105
-  - 🇺🇸 US-84.20.27.183-0123
-  - 🇪🇸 ES-5.188.181.201-7981
-  - SS
-  - 🇬🇧 GB-142.202.51.22-0166
+  - 🇺🇸 US-172.111.36.123-0144
+  - 🇺🇸 US-45.86.51.18-0111
+  - 🇬🇧 GB-82.38.31.179-0096
+  - 🇺🇸 US-95.215.201.18-0157
+  - 🇸🇬 SG-15.235.164.133-0187
+  - 🇷🇺 RU-130.49.189.158-0425
+  - 🇪🇸 ES-5.188.181.201-0229
+  - 🇪🇸 ES-5.188.181.201-5334
+  - 🇹🇼 SS-TW-1620
+  - 🇪🇸 ES-5.188.181.201-0236
+  - 🇬🇧 GB-82.38.31.212-0099
+  - 🇰🇷 KR-218.237.185.234-0205
+  - 🇰🇷 SS-KR-1126
+  - 🇩🇪 DE SS-36 | FREE-NODES
+  - 🇩🇪 DE SS-31 | FREE-NODES
+  - 🇬🇧 GB-82.38.31.66-0167
+  - 🇬🇧 GB-82.38.31.205-0108
+  - 🇬🇧 GB-82.38.31.194-0265
+  - 🇺🇸 US-38.121.43.231-0138
+  - 🇫🇷 FR-167.17.64.175-0189
+  - CH-186.190.215.251-0165
+  - 🇺🇸 US-137.184.89.151-0134
+  - 🇩🇪 DE SS-38 | FREE-NODES
+  - 🇬🇧 GB-198.244.201.129-0198
+  - 🇩🇪 DE-57.129.83.85-0210
+  - 🇪🇸 ES-5.188.181.201-0238
+  - 🇬🇧 SS-GB-1621
+  - 🇸🇬 SG-149.88.106.73-0150
+  - 🇪🇸 ES-5.188.181.201-0227
+  - 🇺🇸 US-38.22.17.129-0145
+  - 🇩🇪 DE SS-35 | FREE-NODES
+  - 🇺🇸 US-167.88.62.203-0130
+  - 🇸🇬 SG-149.88.107.74-0135
+  - 🇺🇸 US-149.40.57.133-0118
+  - 🇳🇱 NL-193.29.139.147-0085
+  - 🇷🇺 RU-185.22.153.117-0193
+  - 🇬🇧 GB-82.38.31.191-0084
+  - SS-IT-1597
+  - 🇨🇦 CA-51.222.155.32-0208
+  - 🇬🇧 GB-198.244.202.215-0200
+  - 🇪🇸 ES-5.188.181.201-0230
+  - 🇬🇧 GB-82.38.31.61-0173
+  - 🇺🇸 US-84.20.27.183-0104
+  - 🇪🇸 ES-66.163.118.103-0149
+  - 🇺🇸 US-149.40.57.138-0120
+  - 🇺🇸 US-162.251.62.31-0153
+  - 🇳🇱 SS-NL-1622
+  - 🇩🇪 DE SS-37 | FREE-NODES
+  - 🇬🇧 GB-82.38.31.47-0177
+  - 🇬🇧 GB-178.83.185.156-0169
+  - 🇸🇬 SG-149.88.107.47-0181
+  - 🇳🇱 NL-193.29.139.168-0266
+  - 🇺🇸 US-38.91.107.188-0152
+  - AE-151.241.19.36-0082
+  - 🇨🇦 CA-15.235.57.6-0225
 - name: 🔯 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -2289,256 +2320,260 @@ proxy-groups:
   - 🚀 自动选择
   - 🔯 故障转移
   - DIRECT
-  - 🇪🇸 西班牙 2
-  - 🇩🇪 DE VLESS-10 | FREE-NODES
-  - 🇨🇦 VLESS-CA-1... 2
-  - 🇩🇪 DE VLESS-23 | FREE-NODES
-  - 🇯🇵 VLESS-JP-1... 8
-  - 🇺🇸 US VLESS-04 | FREE-NODES
+  - 🇳🇱 NL-荷兰-IPV4
   - 🇨🇦 VLESS-CA
-  - 🇩🇪 VLESS-DE-1... 9
-  - 🇩🇪 DE VLESS-20 | FREE-NODES
-  - 🇳🇱 VLESS-NL-1... 5
-  - 未知 VLESS-25 | FREE-NODES
-  - VLESS-FI-1... 5
-  - VLESS-17
-  - 未知 VLESS-13 | FREE-NODES
-  - 🇨🇦 VLESS-CA-1... 3
-  - 🇺🇸 美国 | USA 10
-  - 🇺🇸 US VLESS-15 | FREE-NODES
-  - 🇸🇨 塞舌尔
-  - VLESS-1
-  - GE-31 1
-  - 🇺🇸 US VLESS-17 | FREE-NODES
-  - VLESS-FI 1
-  - VLESS-AE-1... 1
-  - 🇰🇷 VLESS-KR-1
-  - 🇩🇪 VLESS-DE-1... 7
-  - 🇸🇬 SG VLESS-18 | FREE-NODES
-  - VLESS-BY-1... 2
-  - 🇮🇳 VLESS-IN-1... 3
-  - VLESS-3
-  - VLESS-22
+  - 🇳🇱 荷兰 | NLD 2
+  - 🇪🇸 西班牙
+  - 🇩🇪 DE VLESS-02 | FREE-NODES
+  - 未知 VLESS-28 | FREE-NODES
+  - 🇳🇱 NL-14|1.2MB S
+  - 🇩🇪 VLESS-DE-1... 13
+  - 🇸🇬 VLESS-SG-8... 1
+  - 未知 VLESS-27 | FREE-NODES
+  - 🇺🇸 美国 | USA 21-IPV4
+  - 🇳🇱 荷兰 | NLD 5
+  - 🇺🇸 US VLESS-19 | FREE-NODES
   - VLESS-AE-1
+  - 🇯🇵 JP-日本-IPV4
   - VLESS-SE-1... 1
-  - 🇸🇬 SG VLESS-11 | FREE-NODES
-  - VLESS-BY-1... 1
-  - VLESS-EE-1... 4
+  - VLESS-BY-1... 2
+  - 🇰🇷 VLESS-KR-1
+  - VLESS-BY-1... 3
+  - VLESS-VN-1
+  - 🇮🇳 VLESS-IN-1... 3
+  - VLESS-TH-1
+  - VLESS-FI-1... 3
+  - VLESS-TH-1... 1
+  - 🇯🇵 日本
   - VLESS-SE-1... 3
-  - 🇺🇸 US-167.88.61.175-0093
-  - 🇩🇪 DE-193.108.119.193-0146
-  - 🇩🇪 DE-193.108.119.15-0135
-  - 🇰🇷 KR-158.247.253.243-0152
-  - 🇺🇸 US-169.197.140.218-0095
-  - CL-64.176.7.205-0125
-  - TROJAN-SE-... 1
-  - CH-208.69.78.33-0523
-  - 🇺🇸 US-167.88.61.52-0091
-  - 🇺🇸 US-66.163.112.121-0150
-  - 🇦🇺 AU-45.63.30.142-0114
-  - 🇸🇬 SG-149.28.130.108-0127
-  - 🇺🇸 US-66.163.112.13-0168
-  - BR-216.238.104.154-0134
-  - 🇳🇱 TROJAN-NL
-  - 🇨🇦 TROJAN-CA-... 6
-  - 🇺🇸 US-216.106.186.33-0219
-  - 🇨🇦 TROJAN-CA
-  - 🇸🇬 SG-15.235.184.127-0268
-  - 🇩🇪 DE-193.108.119.29-0277
-  - 🇩🇪 DE-193.108.119.96-0141
-  - 未知 TROJAN-24 | FREE-NODES
-  - 🇭🇰 HK-16.106.7.232-0269
-  - 🇩🇪 DE-217.217.222.230-0270
-  - TROJAN-TR-... 1
+  - 🇩🇪 VLESS-DE-1... 3
+  - 🇺🇸 US VLESS-06 | FREE-NODES
+  - 🇸🇬 SG VLESS-08 | FREE-NODES
+  - 🇩🇪 VLESS-DE-1... 10
+  - VLESS-EE-1... 4
+  - VLESS-BY-1... 1
+  - 🇵🇱 波兰 | POL
+  - 🇺🇸 US-167.88.61.175-0112
+  - BR-216.238.104.154-0106
+  - 🇸🇬 SG-149.28.130.108-0147
+  - 🇺🇸 US-167.88.61.52-0131
+  - 🇩🇪 DE-193.108.119.15-0109
+  - 🇰🇷 KR-158.247.253.243-0154
+  - 🇺🇸 US-216.106.186.33-0217
+  - 🇩🇪 DE-193.108.119.193-0110
+  - 🇦🇺 AU-45.63.30.142-0125
+  - CH-208.69.78.33-0224
+  - 🇺🇸 US-66.163.112.121-0119
+  - 🇩🇪 DE-193.108.119.96-0114
+  - 🇨🇦 TROJAN-CA-... 5
+  - 🇺🇸 US-66.163.112.13-0128
+  - CL-64.176.7.205-0098
+  - 🇨🇦 TROJAN-CA-... 1
+  - 🇸🇬 SG-15.235.184.127-0240
+  - 🇩🇪 DE-193.108.119.29-0103
+  - TR TROJAN-09 | FREE-NODES
+  - 🇸🇬 SG TROJAN-17 | FREE-NODES
+  - TROJAN-AE-... 4
+  - 🇭🇰 HK-16.106.7.232-0252
+  - 🇳🇬 尼日利亚 | NGA 1
   - TROJAN-NG
-  - 🇸🇬 SG TROJAN-22 | FREE-NODES
-  - TROJAN-TR
-  - 🇹🇼 TW-台湾-US-美国-IPV4
-  - SC-156.239.224.107-0262
-  - 🇫🇷 FR-145.239.55.210-0227
-  - 🇭🇰 HK-156.245.232.239-5893
-  - OUTLINERELEASEDKEY
-  - VPNBAZ
+  - 🇺🇸 US-157.254.38.210-0244
+  - TR TROJAN-15 | FREE-NODES
+  - 🇺🇸 美国 | USA 3
+  - 🇫🇷 FR-145.239.55.210-0222
+  - 🇺🇸 美国 ALABANZA
+  - 🇭🇰 中国-香港-3
+  - 🇺🇸 美国 ALABANZA 2
+  - 🇩🇪 德国 | DEU 2
+  - 🇩🇪 DE-德国-IPV4
+  - 🇷🇴 罗马尼亚 | ROU 1
+  - 43 ONECLICKVPNKEYS
   - 42 ONECLICKVPNKEYS
+  - 33 ONECLICKVPNKEYS
+  - 69 ONECLICKVPNKEYS
   - 6 ONECLICKVPNKEYS
-  - 32 ONECLICKVPNKEYS
-  - V2RAYNPVTCONFIG
+  - 66 ONECLICKVPNKEYS
   - 92 ONECLICKVPNKEYS
-  - 未知 HY2-19 | FREE-NODES
-  - V2RAY-CONFIIG 3
+  - OUTLINERELEASEDKEY
+  - 32 ONECLICKVPNKEYS
+  - VPNBAZ
+  - 97 ONECLICKVPNKEYS
+  - BY-01 1
+  - 🇹🇷 土耳其 | TUR 1
   - TEL... 1
   - 12 EXCLAVEVPN 2
-  - OUTLINERELEASEDKEY 8
-  - 🇺🇸 US-156.146.38.169-0234
-  - 🇬🇧 GB-16.60.30.137-0188
-  - 🇯🇵 JP-84.247.155.196-0233
-  - 🇺🇸 US-156.146.38.168-0231
-  - 🇬🇧 SS-GB-1451
-  - 🇫🇷 FR-51.44.170.122-0192
-  - 🇳🇱 NL-109.201.152.181-0149
-  - 🇺🇸 US-216.105.168.18-5844
-  - 🇺🇸 US-3.16.78.3-0179
-  - 🇺🇸 US-18.117.92.138-0167
-  - 🇫🇷 FR-54.36.174.140-2945
-  - 🇬🇧 GB-82.38.31.162-0205
-  - 🇺🇸 US-156.146.38.170-0229
-  - 🇺🇸 US-156.146.38.167-0228
+  - 🇩🇪 DE-2|1.5MB S
+  - 🇫🇷 FR-51.44.170.122-0159
+  - 🇺🇸 US-156.146.38.167-0215
+  - 🇯🇵 JP-84.247.155.196-0223
+  - 🇩🇪 德国 | DEU 7
+  - 🇺🇸 US-156.146.38.169-0219
+  - 🇺🇸 US-216.105.168.18-0218
   - SS-ZA-1336
-  - 🇺🇸 US-198.98.53.130-5845
-  - 🇬🇧 GB-82.38.31.212-0130
-  - AT-152.53.1.57-0230
-  - 🇯🇵 JP-84.247.155.196-0221
-  - 🇺🇸 US-38.121.43.225-0147
-  - 🇨🇦 CA-51.222.136.236-0220
-  - 🇩🇪 DE-23.157.88.43-0131
-  - 🇺🇸 US-38.91.100.39-0164
-  - 🇪🇸 ES-66.163.118.103-0143
-  - 🇰🇷 KR-218.237.185.234-0225
-  - AE-151.241.19.36-0096
-  - 🇺🇸 US-38.91.107.188-0144
-  - 🇬🇧 GB-82.38.31.193-0107
-  - 🇬🇧 GB-82.38.31.217-0126
-  - 🇺🇸 US-193.151.163.18-0089
-  - 🇪🇸 ES-167.17.71.167-0193
-  - 🇰🇷 KR-211.178.105.134-0210
-  - 🇩🇪 DE SS-31 | FREE-NODES
-  - 🇬🇧 GB-82.38.31.46-0202
+  - 🇬🇧 SS-GB-1451
+  - 🇺🇸 US-18.117.92.138-0079
+  - 🇺🇸 US-3.16.78.3-0080
+  - 🇺🇸 US-156.146.38.170-0213
+  - 🇬🇧 GB-82.38.31.162-0170
+  - 🇫🇷 FR-54.36.174.140-0212
+  - 🇺🇸 US-156.146.38.168-0216
+  - 🇳🇱 NL-109.201.152.181-0174
+  - 🇬🇧 GB-16.60.30.137-0156
+  - 🇩🇪 德国 | DEU 5
+  - SS-2
+  - RO-154.46.31.106-0497
+  - 🇬🇧 GB-185.176.206.9-0078
+  - 🇺🇸 US-23.150.152.38-0139
+  - AE-151.241.19.29-0081
+  - 🇫🇷 FR-51.83.61.102-0451
+  - 🇺🇸 US-193.151.160.18-0076
+  - 🇪🇸 ES-167.17.71.167-0184
+  - 🇨🇦 CA-137.184.174.93-0132
+  - 🇬🇧 GB-82.38.31.181-0107
+  - 🇬🇧 GB-82.38.31.187-0123
+  - 🇺🇸 US-172.111.38.72-0122
+  - 🇬🇧 GB-104.222.183.180-0247
+  - 🇫🇷 FR-38.109.228.110-0142
+  - 🇬🇧 GB-82.38.31.207-0101
+  - 🇬🇧 GB-82.38.31.199-0234
+  - 🇺🇸 US-185.230.230.18-0105
+  - 🇫🇷 FR-172.99.189.142-0164
+  - SS-SE-1620
   - 🇩🇪 DE SS-30 | FREE-NODES
-  - 🇬🇧 GB-82.38.31.216-0106
-  - 🇨🇦 CA-137.184.174.93-0172
-  - 🇬🇧 GB-82.38.31.208-0111
-  - 🇩🇪 DE SS-36 | FREE-NODES
-  - 🇪🇸 ES-5.188.181.201-5773
-  - 🇬🇧 GB-82.38.31.48-0196
-  - 🇷🇺 RU-185.22.153.117-0222
-  - 🇺🇸 US-149.40.57.138-0137
-  - 🇪🇸 ES-5.188.181.201-0257
-  - 🇬🇧 GB-82.38.31.207-0098
-  - 🇺🇸 US-169.197.142.68-0101
-  - 🇬🇧 GB-82.38.31.47-0199
-  - 🇬🇧 GB-198.244.202.215-0211
-  - 🇪🇸 ES-5.188.181.201-5770
-  - 🇬🇧 GB-82.38.31.189-0116
-  - 🇬🇧 GB-82.38.31.219-0238
-  - 🇬🇧 GB-82.38.31.210-0109
-  - 🇩🇪 DE-193.108.119.3-0129
-  - 🇫🇷 SS-FR-1621... 4
-  - 🇺🇸 US-38.128.66.32-0133
-  - 🇳🇱 NL-193.29.139.168-0104
-  - SE-138.199.55.243-0170
-  - SS-SE-1560
-  - 🇫🇷 FR-167.17.64.175-0207
-  - 🇬🇧 GB-82.38.31.66-0198
-  - 🇬🇧 GB-82.38.31.184-0145
-  - 🇬🇧 GB-82.38.31.186-0113
-  - 🇺🇸 US-172.111.38.72-0175
-  - 🇬🇧 GB-82.38.31.191-0110
-  - 🇳🇱 NL-193.29.139.223-0124
-  - 🇪🇸 ES-5.188.181.201-0253
-  - 🇩🇪 DE SS-35 | FREE-NODES
-  - 🇩🇪 DE SS-29 | FREE-NODES
-  - 🇺🇸 US-149.40.57.134-0216
-  - CH-186.190.215.251-0178
-  - 🇬🇧 GB-38.114.120.221-0208
-  - 🇬🇧 GB-82.38.31.187-0108
-  - 🇪🇸 ES-79.127.139.242-0139
-  - 🇫🇷 FR-172.99.189.142-0169
-  - 🇺🇸 US-38.22.17.129-0156
-  - 🇸🇬 SG-15.235.164.133-0174
-  - SS-NO-1220
-  - SS-ZA-1333
-  - 🇸🇬 SG-149.88.107.74-0209
-  - 🇬🇧 SS-GB-1247
-  - 🇫🇷 FR-23.162.152.22-0162
-  - 🇬🇧 GB-146.70.61.37-0189
-  - 🇪🇸 ES-5.188.181.201-0250
-  - 🇬🇧 GB-82.38.31.35-0201
-  - 🇫🇷 FR-167.17.64.22-0155
-  - 🇬🇧 GB-82.38.31.203-0118
-  - 🇸🇬 SG-68.183.227.4-0186
-  - 🇺🇸 US-137.184.89.151-0223
-  - 🇬🇧 GB-82.38.31.62-0195
-  - 🇺🇸 US-45.86.51.18-0088
-  - 🇺🇸 US-15.204.247.206-0224
-  - 🇬🇧 GB-198.244.201.129-0213
-  - 🇩🇪 DE-57.129.83.85-0212
-  - 🇬🇧 GB-82.110.60.9-0218
-  - 🇬🇧 GB-82.38.31.190-0117
-  - 🇬🇧 GB-82.38.31.49-0204
-  - 🇺🇸 US-162.251.62.31-0151
-  - 🇬🇧 GB-82.38.31.180-0112
-  - CH-79.127.184.104-0246
-  - 🇺🇸 US-193.151.160.18-0094
-  - 🇸🇬 SG-149.88.106.74-0160
-  - 🇺🇸 US-172.111.36.123-0153
-  - 🇺🇸 US-185.230.230.18-0090
-  - 🇬🇧 GB-82.38.31.61-0200
-  - 🇬🇧 GB-54.37.240.40-0275
-  - 🇺🇸 US-38.121.43.18-0148
-  - 🇬🇧 GB-178.83.185.156-0203
-  - 🇪🇸 ES-5.188.181.201-0247
-  - 🇬🇧 GB-82.38.31.179-0100
-  - 🇨🇦 CA-51.222.141.125-0439
-  - 🇬🇧 GB-82.38.31.206-0099
-  - 🇺🇸 US-216.106.178.169-0187
-  - 🇯🇵 JP-168.138.205.100-5840
-  - 🇨🇦 CA-15.235.57.6-0194
-  - AE-185.194.191.35-0622
-  - 🇳🇱 NL-77.221.132.206-0494
-  - 🇸🇬 SG-15.235.182.183-0197
-  - 🇨🇦 CA-51.222.155.32-0236
-  - MX-64.177.90.30-0140
-  - 🇺🇸 US-95.215.201.18-0128
-  - SS-IT-1554
+  - 🇬🇧 GB-38.114.120.221-0192
+  - 🇸🇬 SG-51.79.228.131-0175
+  - 🇺🇸 US-167.88.63.99-0127
+  - 🇬🇧 GB-142.202.51.22-0136
+  - 🇬🇧 GB-82.38.31.48-0172
+  - 🇨🇦 SS-CA-1555
+  - 🇬🇧 GB-82.38.31.218-0241
+  - 🇪🇸 ES-5.188.181.201-0226
+  - 🇯🇵 JP-168.138.205.100-0221
+  - 🇯🇵 JP-84.247.155.196-0209
+  - 🇭🇰 SS-HK-1621... 1
+  - 🇬🇧 GB-82.38.31.217-0094
+  - 🇺🇸 US-216.106.178.169-0186
   - 🇩🇪 DE SS-33 | FREE-NODES
-  - 🇨🇦 SS-CA-1546
-  - 🇫🇷 SS-FR-1621... 5
-  - 🇬🇧 GB-82.38.31.181-0119
-  - 🇬🇧 GB-104.222.183.180-0242
-  - 🇪🇸 ES-5.188.181.201-5771
-  - 🇩🇪 DE SS-28 | FREE-NODES
-  - 🇪🇸 ES-5.188.181.201-0249
-  - 🇬🇧 GB-82.38.31.202-0102
-  - 🇩🇪 DE SS-27 | FREE-NODES
-  - 🇬🇧 GB-82.38.31.194-0115
-  - 🇺🇸 US-167.88.62.203-0138
-  - 🇬🇧 GB-185.176.206.9-0163
-  - CH-23.166.88.127-0161
-  - 🇨🇦 CA-51.222.200.165-0235
-  - AE-151.241.19.29-0097
-  - 🇺🇸 US-193.151.160.9-0092
-  - 🇩🇪 DE SS-32 | FREE-NODES
-  - SS-5
-  - 🇨🇦 SS-CA-1545
-  - 🇩🇪 DE-193.108.119.2-0136
-  - 🇳🇱 SS-NL-1618
-  - SS-IT-1597
-  - 🇺🇸 US-149.40.57.133-0142
-  - 🇸🇬 SG-149.88.106.73-0154
-  - 🇪🇸 ES-5.188.181.201-0252
-  - 🇺🇸 US-38.22.17.219-0165
-  - 🇸🇬 SG-51.79.228.131-0206
-  - 🇬🇧 GB-82.38.31.214-0103
-  - 🇬🇧 GB-82.38.31.192-0122
-  - 🇪🇸 ES-5.188.181.201-0251
-  - 🇬🇧 GB-82.38.31.205-0120
-  - 🇺🇸 US-23.150.152.38-0157
-  - 🇫🇷 FR-167.17.64.27-0215
-  - 🇬🇧 GB-82.38.31.199-0254
-  - 🇺🇸 US-38.121.43.231-0171
-  - 🇺🇸 US-167.88.63.99-0159
-  - 🇪🇸 ES-5.188.181.201-0217
+  - 🇯🇵 JP-154.36.158.197-0250
   - 🇩🇪 DE SS-34 | FREE-NODES
-  - 🇸🇬 SG-149.88.107.47-0185
-  - 🇫🇷 FR-38.109.228.110-0176
+  - CH-23.166.88.127-0199
+  - 🇨🇦 CA-51.222.136.236-0202
+  - 🇺🇸 US-38.91.100.39-0143
+  - SS-AL-1490
+  - 🇬🇧 GB-82.38.31.219-0197
+  - 🇬🇧 GB-82.38.31.208-0086
+  - 🇸🇬 SG-68.183.227.4-0182
+  - 🇬🇧 GB-82.38.31.186-0088
+  - 🇳🇱 SS-NL-1618
+  - MX-64.177.90.30-0161
+  - 🇬🇧 GB-82.38.31.206-0090
+  - 🇺🇸 US-38.121.43.18-0124
+  - 🇨🇦 SS-CA-1559... 1
+  - 🇫🇷 FR-167.17.64.22-0151
+  - 🇬🇧 GB-82.110.60.9-0087
+  - 🇬🇧 GB-82.38.31.49-0171
+  - 🇩🇪 DE-23.157.88.43-0115
+  - 🇬🇧 GB-82.38.31.46-0163
+  - 🇩🇪 DE-193.108.119.2-0204
+  - 🇩🇪 DE SS-29 | FREE-NODES
+  - 🇺🇸 US-38.128.66.32-0140
+  - 🇺🇸 US-38.121.43.225-0117
+  - SS-AT-1614
+  - 🇨🇦 CA-51.222.141.125-0201
+  - IT-57.131.4.13-0482
+  - 🇨🇦 SS-CA-1546
+  - 🇯🇵 JP-168.138.205.100-5406
+  - 🇪🇸 ES-5.188.181.201-5335
+  - 🇬🇧 GB-82.38.31.180-0093
+  - 🇬🇧 GB-82.38.31.203-0102
+  - 🇩🇪 DE-193.108.119.3-0113
+  - 🇬🇧 GB-82.38.31.192-0097
+  - 🇬🇧 SS-GB-1247
+  - 🇺🇸 US-15.204.247.206-0203
+  - 🇪🇸 ES-5.188.181.201-0207
+  - 🇪🇸 ES-79.127.139.242-0116
+  - 🇩🇪 DE SS-32 | FREE-NODES
+  - 🇫🇷 FR-167.17.64.27-0194
+  - 🇬🇧 GB-82.38.31.216-0089
+  - 🇬🇧 GB-82.38.31.202-0092
+  - 🇬🇧 GB-82.38.31.214-0100
+  - 🇺🇸 US-193.151.160.9-0075
+  - 🇸🇬 SG-149.88.106.74-0158
+  - 🇫🇷 SS-FR-1621... 5
+  - 🇬🇧 GB-82.38.31.62-0178
+  - 🇬🇧 GB-82.38.31.210-0083
+  - 🇬🇧 GB-82.38.31.35-0168
+  - 🇬🇧 GB-82.38.31.184-0095
+  - 🇨🇦 CA-51.222.200.165-0220
+  - CH-79.127.184.104-0195
+  - 🇬🇧 GB-146.70.61.37-0146
+  - 🇪🇸 ES-5.188.181.201-0268
+  - 🇺🇸 US-193.151.163.18-0077
+  - 🇺🇸 US-149.40.57.134-0166
+  - 🇰🇷 KR-211.178.105.134-0206
+  - SE-138.199.55.243-0148
+  - 🇫🇷 FR-23.162.152.22-0196
+  - 🇸🇬 SG-15.235.182.183-0188
+  - SS-ZA-1333
+  - 🇺🇸 US-38.22.17.219-0133
+  - 🇺🇸 US-169.197.142.68-0121
+  - 🇬🇧 GB-82.38.31.193-0091
   - 🇺🇸 SS-US-1620
-  - 🇬🇧 GB-82.38.31.218-0226
-  - 🇪🇸 ES-5.188.181.201-5776
-  - 🇳🇱 NL-193.29.139.147-0105
-  - 🇺🇸 US-84.20.27.183-0123
-  - 🇪🇸 ES-5.188.181.201-7981
-  - SS
-  - 🇬🇧 GB-142.202.51.22-0166
+  - 🇺🇸 US-172.111.36.123-0144
+  - 🇺🇸 US-45.86.51.18-0111
+  - 🇬🇧 GB-82.38.31.179-0096
+  - 🇺🇸 US-95.215.201.18-0157
+  - 🇸🇬 SG-15.235.164.133-0187
+  - 🇷🇺 RU-130.49.189.158-0425
+  - 🇪🇸 ES-5.188.181.201-0229
+  - 🇪🇸 ES-5.188.181.201-5334
+  - 🇹🇼 SS-TW-1620
+  - 🇪🇸 ES-5.188.181.201-0236
+  - 🇬🇧 GB-82.38.31.212-0099
+  - 🇰🇷 KR-218.237.185.234-0205
+  - 🇰🇷 SS-KR-1126
+  - 🇩🇪 DE SS-36 | FREE-NODES
+  - 🇩🇪 DE SS-31 | FREE-NODES
+  - 🇬🇧 GB-82.38.31.66-0167
+  - 🇬🇧 GB-82.38.31.205-0108
+  - 🇬🇧 GB-82.38.31.194-0265
+  - 🇺🇸 US-38.121.43.231-0138
+  - 🇫🇷 FR-167.17.64.175-0189
+  - CH-186.190.215.251-0165
+  - 🇺🇸 US-137.184.89.151-0134
+  - 🇩🇪 DE SS-38 | FREE-NODES
+  - 🇬🇧 GB-198.244.201.129-0198
+  - 🇩🇪 DE-57.129.83.85-0210
+  - 🇪🇸 ES-5.188.181.201-0238
+  - 🇬🇧 SS-GB-1621
+  - 🇸🇬 SG-149.88.106.73-0150
+  - 🇪🇸 ES-5.188.181.201-0227
+  - 🇺🇸 US-38.22.17.129-0145
+  - 🇩🇪 DE SS-35 | FREE-NODES
+  - 🇺🇸 US-167.88.62.203-0130
+  - 🇸🇬 SG-149.88.107.74-0135
+  - 🇺🇸 US-149.40.57.133-0118
+  - 🇳🇱 NL-193.29.139.147-0085
+  - 🇷🇺 RU-185.22.153.117-0193
+  - 🇬🇧 GB-82.38.31.191-0084
+  - SS-IT-1597
+  - 🇨🇦 CA-51.222.155.32-0208
+  - 🇬🇧 GB-198.244.202.215-0200
+  - 🇪🇸 ES-5.188.181.201-0230
+  - 🇬🇧 GB-82.38.31.61-0173
+  - 🇺🇸 US-84.20.27.183-0104
+  - 🇪🇸 ES-66.163.118.103-0149
+  - 🇺🇸 US-149.40.57.138-0120
+  - 🇺🇸 US-162.251.62.31-0153
+  - 🇳🇱 SS-NL-1622
+  - 🇩🇪 DE SS-37 | FREE-NODES
+  - 🇬🇧 GB-82.38.31.47-0177
+  - 🇬🇧 GB-178.83.185.156-0169
+  - 🇸🇬 SG-149.88.107.47-0181
+  - 🇳🇱 NL-193.29.139.168-0266
+  - 🇺🇸 US-38.91.107.188-0152
+  - AE-151.241.19.36-0082
+  - 🇨🇦 CA-15.235.57.6-0225
 rules:
 - GEOIP,CN,DIRECT
 - MATCH,🚀 自动选择
